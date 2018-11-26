@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "c:\\PRPC-master\\SMSVerifyLib\\SMSVerifyLib.csproj",
+  "ProjectFilePath": "c:\\Users\\Rebecca Vengen\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
   "TargetFramework": "netstandard2.0",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "UnsupportedRazor",
-    "LanguageVersion": "1.0",
-    "Extensions": [
-      {
-        "ExtensionName": "UnsupportedRazorExtension"
-      }
-    ]
-  }
+  "Configuration": null
 }

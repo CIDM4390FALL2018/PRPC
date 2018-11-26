@@ -7,3 +7,12 @@ C:\CIDM4390\PRPC\PRPCRepositoryLib\obj\Debug\netstandard2.0\PRPCRepositoryLib.As
 C:\CIDM4390\PRPC\PRPCRepositoryLib\obj\Debug\netstandard2.0\PRPCRepositoryLib.dll
 C:\CIDM4390\PRPC\PRPCRepositoryLib\obj\Debug\netstandard2.0\PRPCRepositoryLib.pdb
 C:\CIDM4390\PRPC\PRPCRepositoryLib\obj\Debug\netstandard2.0\PRPCRepositoryLib.csprojAssemblyReference.cache
+C:\Users\Rebecca Vengen\PRPC\PRPCRepositoryLib\bin\Debug\netstandard2.0\PRPCRepositoryLib.deps.json
+C:\Users\Rebecca Vengen\PRPC\PRPCRepositoryLib\bin\Debug\netstandard2.0\PRPCRepositoryLib.dll
+C:\Users\Rebecca Vengen\PRPC\PRPCRepositoryLib\bin\Debug\netstandard2.0\PRPCRepositoryLib.pdb
+C:\Users\Rebecca Vengen\PRPC\PRPCRepositoryLib\obj\Debug\netstandard2.0\PRPCRepositoryLib.csprojAssemblyReference.cache
+C:\Users\Rebecca Vengen\PRPC\PRPCRepositoryLib\obj\Debug\netstandard2.0\PRPCRepositoryLib.csproj.CoreCompileInputs.cache
+C:\Users\Rebecca Vengen\PRPC\PRPCRepositoryLib\obj\Debug\netstandard2.0\PRPCRepositoryLib.AssemblyInfoInputs.cache
+C:\Users\Rebecca Vengen\PRPC\PRPCRepositoryLib\obj\Debug\netstandard2.0\PRPCRepositoryLib.AssemblyInfo.cs
+C:\Users\Rebecca Vengen\PRPC\PRPCRepositoryLib\obj\Debug\netstandard2.0\PRPCRepositoryLib.dll
+C:\Users\Rebecca Vengen\PRPC\PRPCRepositoryLib\obj\Debug\netstandard2.0\PRPCRepositoryLib.pdb

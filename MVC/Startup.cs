@@ -38,6 +38,16 @@ public class Startup
         // services.AddSession();
 
         services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+        
+        /* services.AddIdentity<ApplicationUser, IdentityRole>()
+        .AddEntityFrameworkStores<ApplicationDbContext>()
+        .AddDefaultTokenProviders();
+
+        services.AddAuthentication().AddFacebook(facebookOptions =>
+        {
+            facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
+            facebookOptions.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
+        });   */ 
     }
 
     // This method gets called by the runtime. Use this method to configure the 

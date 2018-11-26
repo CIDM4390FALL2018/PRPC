@@ -16,8 +16,12 @@ namespace PRPCRepositoryLib
         public PasswordRecovery(){
             //have user enter email --> from email send reset link
             //enters email to find password reset
-            find(User.Email){
+           // find(User.Email){
                 //send reset link to email
+            if(email == User.Email){
+                return true;
+            }else{
+                return false;
             }
         }
         public PhoneNumberLookup(){

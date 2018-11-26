@@ -1,0 +1,4 @@
+C:\PRPC-login\PRPC-login.Tests\obj\Debug\netcoreapp2.1\PRPC-Login.Tests.csprojAssemblyReference.cache
+C:\PRPC-login\PRPC-login.Tests\obj\Debug\netcoreapp2.1\PRPC-Login.Tests.csproj.CoreCompileInputs.cache
+C:\PRPC-login\PRPC-login.Tests\obj\Debug\netcoreapp2.1\PRPC-Login.Tests.AssemblyInfoInputs.cache
+C:\PRPC-login\PRPC-login.Tests\obj\Debug\netcoreapp2.1\PRPC-Login.Tests.AssemblyInfo.cs

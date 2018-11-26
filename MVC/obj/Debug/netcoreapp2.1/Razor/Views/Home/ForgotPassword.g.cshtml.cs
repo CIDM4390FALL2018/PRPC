@@ -61,7 +61,7 @@ using MVC.Models;
             WriteLiteral("\n<!DOCTYPE html>\n<html lang=\"en\">\n");
             EndContext();
             BeginContext(34, 406, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c13b96f75aa544e9b2d2bb0425e9f2b9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2f2ef6de5079481f8dd2d71ea98a4b65", async() => {
                 BeginContext(40, 393, true);
                 WriteLiteral(@"
   <title>ResetPassword</title>
@@ -88,7 +88,7 @@ using MVC.Models;
             WriteLiteral("\n");
             EndContext();
             BeginContext(441, 1577, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d115ecf37a044070afb544bfc16d92a7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "08d63967b5104f379238fa06d66dc9c9", async() => {
                 BeginContext(447, 601, true);
                 WriteLiteral(@"
 
@@ -108,7 +108,7 @@ using MVC.Models;
                     ");
                 EndContext();
                 BeginContext(1048, 837, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e4f83ac46550461e994f42779f750567", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fc7900e3f09c444491317996f11bf419", async() => {
                     BeginContext(1131, 747, true);
                     WriteLiteral(@"
     

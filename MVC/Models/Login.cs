@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 //using System.Data.EntityFrameworkCore;
 
-namespace PRPC.Models
+namespace MVC.Models
 {
     public class LoginViewModel
     {

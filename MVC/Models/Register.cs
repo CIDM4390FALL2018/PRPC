@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace PRPC_CIDM4390.Models
+namespace MVC.Models
 {
 
     public class Register

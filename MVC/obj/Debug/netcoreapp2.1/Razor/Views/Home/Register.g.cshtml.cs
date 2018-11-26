@@ -57,7 +57,7 @@ using MVC.Models;
             WriteLiteral("\n\n<!DOCTYPE html>\n<html lang=\"en\">\n");
             EndContext();
             BeginContext(35, 403, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "419865b060194552b71da15f8643c1ed", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f9abedae734b4c118359747c28670a73", async() => {
                 BeginContext(41, 390, true);
                 WriteLiteral(@"
   <title>Login Page</title>
@@ -84,12 +84,12 @@ using MVC.Models;
             WriteLiteral("\n");
             EndContext();
             BeginContext(439, 3199, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "75675e33cb434be080fe09c55501d38c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6972c0ab1dcb44829b955050e7d395e3", async() => {
                 BeginContext(445, 125, true);
                 WriteLiteral("\n\n<div class=\"container\">\n\n<div class=\"row\">\n    <div class=\"col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3\">\n\t\t");
                 EndContext();
                 BeginContext(570, 2362, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b538e17e6af46e7a92ed0b5e7c26d52", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9aeb453840d0418f86855450670d1972", async() => {
                     BeginContext(588, 2337, true);
                     WriteLiteral(@"
 			<h2>Please Sign Up </h2>

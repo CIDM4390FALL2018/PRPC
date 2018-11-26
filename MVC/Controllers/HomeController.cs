@@ -27,16 +27,16 @@ namespace MVC.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Register()
         {
             ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult ForgotPassword()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your application description page.";
 
             return View();
         }

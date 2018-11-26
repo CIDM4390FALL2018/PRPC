@@ -6,6 +6,13 @@ namespace PRPCRepositoryLib
     public class PRPCRepository
     {
         public PRPCRepositoryDbContext Context {get; set;}    
+        public Registration(){
+            if(Email != User.Email){
+                return true;
+            }else{
+                return false;
+            }
+        }
         public PasswordRecovery(){
             //have user enter email --> from email send reset link
             //enters email to find password reset

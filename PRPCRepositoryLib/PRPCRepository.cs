@@ -12,31 +12,43 @@ namespace PRPCRepositoryLib
         public PasswordRecovery(){
             //have user enter email --> from email send reset link
             //enters email to find password reset
+            find(User.Email){
+                //send reset link to email
+            }
         }
         public PhoneNumberLookup(){
             //user should get a text from email or name.
            // User.Email == User.PhoneNumber
+           if(PhoneNumber == User.PhoneNumber){
+               return true;
+           }else{
+               return false;
+           }
         }
         public FindUser(){
             //checks email address to see if its used 
             //enter first name last name and get the email address
           //  where(User.FirstName && User.LastName == U)
-            if(Email == User.Email
-             //
+            if(Email == User.Email){
+             return User.FirstName;
             }
         }
         public CheckPassword(){
             //makes eamil and password match
             if(password == User.Password){
+                return true;
                 //successful login take them to manage account page
             }else{
+                return false;
                 //alert wrong password, try again, stays on page
             }
         }
         public CheckConfirmation(){
             if(confirmation == true){
                 //does something
+                return true;
             }else{
+                return false;
                 // does something
             }
             //bool statement

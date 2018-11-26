@@ -5,10 +5,7 @@ namespace PRPCRepositoryLib
 {
     public class PRPCRepository
     {
-
-        public PRPCRepositoryDbContext Context {get; set;}
-        
-      
+        public PRPCRepositoryDbContext Context {get; set;}    
         public PasswordRecovery(){
             //have user enter email --> from email send reset link
             //enters email to find password reset
@@ -37,21 +34,16 @@ namespace PRPCRepositoryLib
             //makes eamil and password match
             if(password == User.Password){
                 return true;
-                //successful login take them to manage account page
             }else{
                 return false;
-                //alert wrong password, try again, stays on page
             }
         }
         public CheckConfirmation(){
             if(confirmation == true){
-                //does something
                 return true;
             }else{
                 return false;
-                // does something
             }
-            //bool statement
         }
         public PRPCRepository()
         {

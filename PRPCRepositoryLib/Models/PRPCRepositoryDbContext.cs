@@ -8,7 +8,7 @@ namespace PRPCRepositoryLib.Models
     public class PRPCRepositoryDbContext : DbContext
     {
         //The connection string is used by the SQL Server database provider to find the database
-        private const string ConnectionString = @"Data Source=C:\CIDM4390\PRPC\Data\PRPCRepository.db";
+        private const string ConnectionString = @"Data Source=C:\Users\fordv\Desktop\CIDM4390\PRPCCode\PRPCDatabase\PRPCRepository.db";
 
         protected override void OnConfiguring(
             DbContextOptionsBuilder optionsBuilder)

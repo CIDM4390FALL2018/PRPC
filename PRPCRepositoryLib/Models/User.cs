@@ -1,15 +1,16 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace PRPCRepositoryLib.Models
 {
     public class User
     {
-        public int UserID {get; set;}
-        public string RequestId { get; set; }
         public string FirstName {get; set;}
         public string LastName {get; set;}
-        public string Password {get; set;}
+        [Key]
         public string Email {get; set;}
+        public string Password {get; set;}
+        public string ConfirmPassword { get; set; }
         public string PhoneNumber {get; set;}
     }
 }

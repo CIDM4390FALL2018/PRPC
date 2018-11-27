@@ -24,12 +24,14 @@ namespace PRPCTestClient
                     {
                         new User()
                         {
-                            Email = "test@test.com",
+                           
                             FirstName = "Test1",
                             LastName = "Tester1",
+                            Email = "test@test.com",
                             Password = "secret1",
-                            PhoneNumber = "808-555-5555",
-                            RequestId = "stuff1"
+                            ConfirmPassword = "stuff1",
+                            PhoneNumber = "808-555-5555"
+                            
                         },
                                                                                     
                     };
@@ -42,12 +44,14 @@ namespace PRPCTestClient
                 else
                 {
                     User user = new User();
-                    user.Email = "test@test.com";
+                    
                     user.FirstName = "Test";
                     user.LastName = "Tester";
+                    user.Email = "test@test.com";
                     user.Password = "secret";
+                    user.ConfirmPassword = "stuff";
                     user.PhoneNumber = "808-555-5555";
-                    user.RequestId = "stuff";
+                    
 
                     repo.Context.Users.Add(user);
                     repo.Context.SaveChanges();

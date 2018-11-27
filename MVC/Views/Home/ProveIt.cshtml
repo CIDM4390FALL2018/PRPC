@@ -1,11 +1,16 @@
 @model UserListViewModel
 
 <ol>
+
+    <p>There should be a database under here.</p>
+
     @foreach(var user in Model.Users)
     {
-        <li>@user.FirstName</li>
+        <li>@user.Email <br>
+        @user.FirstName<br>
+        @user.LastName<br>
+        @user.Password<br>
+        @user.ConfirmPassword<br>
+        @user.PhoneNumber</li><br>
     }
 </ol>
-
-
-@*<p>count: @Model</p>*@

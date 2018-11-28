@@ -67,3 +67,17 @@ namespace PRPCRepositoryLib
         }
     }
 }
+
+
+/*1. O-Auth
+    Need to pull the intended email address to see if there is an outside authentication resource (i.e facebook) and return a True or False value.
+2. Read Receive Text Messages
+    Need to pull intended phone number and return a message to be sent to the user.
+3. Two Factor Auth: SMS
+    Need to pull intended phone number or email address and return a randomly generated 6-digit code to be sent to the user.
+4. Password Recovery SMS
+    Need to pull the intended phone number and return a link to be sent to the user's phone number to reset password.
+5. Password Recovery Email
+Need to pull the intended user's email and return a link to be sent to the user's email address to reset password.
+6. Change Password Database Update (generates password and writes to database)
+    Need to pull intended user's email address, create a randomly generated password, and returns a new password to the database.*/

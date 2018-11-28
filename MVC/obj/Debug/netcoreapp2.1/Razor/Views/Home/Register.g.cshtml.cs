@@ -57,7 +57,7 @@ using MVC.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
             EndContext();
             BeginContext(35, 410, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9894936e76464e908c47851fbf78837d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "59526e0ea80146098e7f1c302751567a", async() => {
                 BeginContext(41, 397, true);
                 WriteLiteral(@"
   <title>Login Page</title>
@@ -84,12 +84,12 @@ using MVC.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(447, 3279, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ecdacaeb18124a54a82666638b6f83e6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c88ad38b3a894a5ba4e7de6dd73d750d", async() => {
                 BeginContext(453, 131, true);
                 WriteLiteral("\r\n\r\n<div class=\"container\">\r\n\r\n<div class=\"row\">\r\n    <div class=\"col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3\">\r\n\t\t");
                 EndContext();
                 BeginContext(584, 2414, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "928031d5fe2948cdb05b6e9335e1a57a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5321efd7d11d44678188fe836f84d2f1", async() => {
                     BeginContext(602, 2389, true);
                     WriteLiteral(@"
 			<h2>Please Sign Up </h2>

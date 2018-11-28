@@ -1,16 +1,17 @@
 @model UserListViewModel
 
-<ol>
+<h1>This is the randomly generated code: @ViewBag.MyString</h1>
 
-    <p>There should be a database under here.</p>
+<ol>
 
     @foreach(var user in Model.Users)
     {
-        <li>@user.Email <br>
-        @user.FirstName<br>
-        @user.LastName<br>
-        @user.Password<br>
-        @user.ConfirmPassword<br>
-        @user.PhoneNumber</li><br>
+        <li>Email: @user.Email <br>
+        First Name: @user.FirstName<br>
+        Last Name: @user.LastName<br>
+        Password: @user.Password<br>
+        Confirmed Password: @user.ConfirmPassword<br>
+        Phone Number: @user.PhoneNumber</li><br>
     }
 </ol>
+

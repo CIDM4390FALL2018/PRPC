@@ -13597,11 +13597,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hchoi\\Desktop\\PRPC-master\\PRPC-master\\MVC\\MVC.csproj",
+      "projectUniqueName": "C:\\Users\\hchoi\\Downloads\\PRPC-LoginRegistrationPassword\\PRPC-LoginRegistrationPassword\\MVC\\MVC.csproj",
       "projectName": "MVC",
-      "projectPath": "C:\\Users\\hchoi\\Desktop\\PRPC-master\\PRPC-master\\MVC\\MVC.csproj",
+      "projectPath": "C:\\Users\\hchoi\\Downloads\\PRPC-LoginRegistrationPassword\\PRPC-LoginRegistrationPassword\\MVC\\MVC.csproj",
       "packagesPath": "C:\\Users\\hchoi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hchoi\\Desktop\\PRPC-master\\PRPC-master\\MVC\\obj\\",
+      "outputPath": "C:\\Users\\hchoi\\Downloads\\PRPC-LoginRegistrationPassword\\PRPC-LoginRegistrationPassword\\MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13620,8 +13620,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\hchoi\\Desktop\\PRPC-master\\PRPC-master\\PRPCRepositoryLib\\PRPCRepositoryLib.csproj": {
-              "projectPath": "C:\\Users\\hchoi\\Desktop\\PRPC-master\\PRPC-master\\PRPCRepositoryLib\\PRPCRepositoryLib.csproj"
+            "C:\\Users\\hchoi\\Downloads\\PRPC-LoginRegistrationPassword\\PRPC-LoginRegistrationPassword\\PRPCRepositoryLib\\PRPCRepositoryLib.csproj": {
+              "projectPath": "C:\\Users\\hchoi\\Downloads\\PRPC-LoginRegistrationPassword\\PRPC-LoginRegistrationPassword\\PRPCRepositoryLib\\PRPCRepositoryLib.csproj"
             }
           }
         }

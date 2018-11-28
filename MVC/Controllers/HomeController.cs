@@ -40,6 +40,13 @@ namespace MVC.Controllers
 
             return View();
         }
+        public IActionResult Loggedout()
+        {
+            ViewData["Message"] = "Your application description page.";
+
+            return View();
+        }
+
 
         public IActionResult ProveIt()
         {

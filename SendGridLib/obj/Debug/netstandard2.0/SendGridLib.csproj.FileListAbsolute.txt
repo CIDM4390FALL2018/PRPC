@@ -24,3 +24,12 @@ D:\PRPCFinal\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoI
 D:\PRPCFinal\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
 D:\PRPCFinal\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
 D:\PRPCFinal\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb
+C:\PRPC-emailconnection\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.deps.json
+C:\PRPC-emailconnection\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.dll
+C:\PRPC-emailconnection\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.pdb
+C:\PRPC-emailconnection\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csprojAssemblyReference.cache
+C:\PRPC-emailconnection\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csproj.CoreCompileInputs.cache
+C:\PRPC-emailconnection\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoInputs.cache
+C:\PRPC-emailconnection\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
+C:\PRPC-emailconnection\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
+C:\PRPC-emailconnection\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb

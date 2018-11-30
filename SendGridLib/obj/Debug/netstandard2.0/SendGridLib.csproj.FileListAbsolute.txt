@@ -15,3 +15,11 @@ C:\CIDM4390\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoIn
 C:\CIDM4390\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
 C:\CIDM4390\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
 C:\CIDM4390\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb
+C:\Users\BeccaBoo\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.deps.json
+C:\Users\BeccaBoo\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.dll
+C:\Users\BeccaBoo\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.pdb
+C:\Users\BeccaBoo\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csproj.CoreCompileInputs.cache
+C:\Users\BeccaBoo\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoInputs.cache
+C:\Users\BeccaBoo\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
+C:\Users\BeccaBoo\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
+C:\Users\BeccaBoo\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb

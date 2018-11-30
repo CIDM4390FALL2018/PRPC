@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "c:\\Users\\fordv\\Desktop\\CIDM4390\\PRPCCode\\PRPC\\PRPC\\MVC\\MVC.csproj",
+  "ProjectFilePath": "c:\\Users\\BeccaBoo\\PRPC\\MVC\\MVC.csproj",
   "TargetFramework": "netcoreapp2.1",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "MVC-2.1",
-    "LanguageVersion": "2.1",
-    "Extensions": [
-      {
-        "ExtensionName": "MVC-2.1"
-      }
-    ]
-  }
+  "Configuration": null
 }

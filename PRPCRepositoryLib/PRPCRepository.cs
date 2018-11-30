@@ -9,25 +9,27 @@ namespace PRPCRepositoryLib
 		
 		
 		public updateUser(user)
-		public updateUser(string email, string fname, string lname, 
-							string PhoneNumber, String address,
+		public updateUser(string Email, string FirstName, string LastName, 
+							string PhoneNumber, String Address,
 							String City, string State, string ZipCode,
-							bool acceptText = false)
+							bool AcceptText = false)
 		
 		public createuser(user)
-		public createuser(string email, string fname, string lname, 
-							string PhoneNumber, String address,
+		public createuser(string Email, string FirstName, string LastName, 
+							string PhoneNumber, String Address,
 							String City, string State, string ZipCode,
-							bool acceptText = false)
+							bool AcceptText = false)
 							
 		
 		public deleteUser(user)
-		public deleteUser(string email)
+		public deleteUser(string Email)
 		
 		
 		//PasswordRecoverySMS, PasswordRecoveryEmail, SMS Verification
-        public FindUserFromEmail(string email){
+        public FindUserFromEmail(string Email){
            // find User.Email in user table and return User   
+           var queryUsers = from Email in queryUsers        
+                            select User;
         }
 		public FindUserFromPhoneNumber(string PhoneNumber){
            // find User.PhoneNumber in user table and return User   

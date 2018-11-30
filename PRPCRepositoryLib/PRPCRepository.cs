@@ -49,12 +49,13 @@ namespace PRPCRepositoryLib
                 //provide exceptions
             }
 }
+//Rebecca's LINQ statement
 		public createuser(user){
                 var queryCreateUsers = from user in User        
                                       where User.Email = Input.Email
                                       select User;
         }
-        //Rebecca's LINQ statement
+        
         public CreateUser(string Email, string FirstName, string LastName, 
                             string Password, string ConfirmPassword,
 							string PhoneNumber, String Address,

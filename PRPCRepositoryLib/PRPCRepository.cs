@@ -13,6 +13,15 @@ namespace PRPCRepositoryLib
                             where User.Email = Input.Email
                             select User;
         }
+        public updateUser(string Email, string FirstName, string LastName, 
+                            string Password, string ConfirmPassword,
+							string PhoneNumber, String Address,
+							String City, string State, string ZipCode,
+							bool AcceptText = false){
+                var queryUpdateUser = from user in User
+                                    where User.Email = Input.Email
+                                    select User;
+                            }
         //Luke & Hosu's LINQ
 		public updateUser_OnClick(string Email, string FirstName, string LastName, 
                             string Password, string ConfirmPassword,

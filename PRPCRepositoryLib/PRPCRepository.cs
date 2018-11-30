@@ -9,28 +9,56 @@ namespace PRPCRepositoryLib
 		
 		
 		public updateUser(user)
-		public updateUser(string Email, string FirstName, string LastName, 
+		public updateUser_OnClick(string Email, string FirstName, string LastName, 
+                            string Password, string ConfirmPassword,
 							string PhoneNumber, String Address,
 							String City, string State, string ZipCode,
 							bool AcceptText = false)
 {
             var queryNewUser = from Email in Users
-                                where Users.Email == //something
+                                where Users.Email == //specific user? currently entered email?
                                 select Email;
+
+                                User u = queryNewUser; //store current user as the user that has been returned from the database
+                                u.FirstName = TextBox1.Text;
+                                u.LastName = TextBox2.Text;
+                                u.Email = TextBox3.Text;
+                                u.Password = TextBox4.Text;
+                                u.ConfirmPassword = TextBox5.Text;
+                                u.PhoneNumber = TextBox6.Text;
+            //submit changes
+            try{
+                db.SubmitChanges();
+            }
+            catch(Exception e){
+                Console.WriteLine(e);
+                //provide exceptions
+            }
+
 }
 		
-		public createuser(user){
-
-        }
-		public createuser(string Email, string FirstName, string LastName, 
+		public createuser(user)
+		public CreateUser_OnClick(string Email, string FirstName, string LastName, 
+                            string Password, string ConfirmPassword,
 							string PhoneNumber, String Address,
 							String City, string State, string ZipCode,
 							bool AcceptText = false){
 
+                            User u = new User();  //UserDetails instead of User?
+                            u.FirstName = TextBox1.Text;
+                            u.LastName = TextBox2.Text;
+                            u.Email = TextBox3.Text;
+                            u.Password = TextBox4.Text;
+                            u.ConfirmPassword = TextBox5.Text;
+                            u.PhoneNumber = TextBox6.Text;
 
-                            var queryCreateUser = from Email in Users
-                                                     where Users.Email =
-                                                     select Email
+                            TrackToolDataContext data = new TrackToolDataContext();
+                            data.User.InsertOnSubmit(u);
+                            data.SubmitChanges();
+
+                            /* var queryCreateUser = from Email in Users
+                                                     where Users.Email = //specific user? currently entered email?
+                                                     select Email */
                             }
 
 

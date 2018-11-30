@@ -15,7 +15,7 @@ namespace SendGridLib
             string email(string userEmail);
             string name (string userName);
         }
-
+        
         public class EmailConfirmation
         {
             public static string NewToken()

@@ -33,3 +33,5 @@ C:\CIDM4390\PRPC\MVC\obj\Debug\netcoreapp2.1\MVC.Views.pdb
 C:\CIDM4390\PRPC\MVC\obj\Debug\netcoreapp2.1\MVC.csproj.CopyComplete
 C:\CIDM4390\PRPC\MVC\obj\Debug\netcoreapp2.1\MVC.dll
 C:\CIDM4390\PRPC\MVC\obj\Debug\netcoreapp2.1\MVC.pdb
+C:\Users\fordv\Desktop\CIDM4390\PRPCCode\PRPC\PRPC\MVC\obj\Debug\netcoreapp2.1\MVC.dll
+C:\Users\fordv\Desktop\CIDM4390\PRPCCode\PRPC\PRPC\MVC\obj\Debug\netcoreapp2.1\MVC.pdb

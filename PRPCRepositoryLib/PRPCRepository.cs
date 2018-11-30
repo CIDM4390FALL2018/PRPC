@@ -29,7 +29,7 @@ namespace PRPCRepositoryLib
 
 
                             var queryCreateUser = from Email in Users
-                                                     where Users.Email 
+                                                     where Users.Email =
                                                      select Email
                             }
 
@@ -44,7 +44,7 @@ namespace PRPCRepositoryLib
 
 
             var queryDeleteUser = from Email in Users
-                                 where Users.Email 
+                                 where Users.Email =
                                  select Email
 
                             }
@@ -55,16 +55,19 @@ namespace PRPCRepositoryLib
 		//PasswordRecoverySMS, PasswordRecoveryEmail, SMS Verification
         public FindUserFromEmail(string Email){
            // find User.Email in user table and return User   
-           var queryUsers = from Email in Users        
+           var queryUsers = from Email in Users      
+                            where Users.Email =  
                             select User;
         }
 		public FindUserFromPhoneNumber(string PhoneNumber){
            // find User.PhoneNumber in user table and return User   
-        }
+           var queryUsers = from PhoneNumber in Users
+                            where Users.PhoneNumber =
+                            select User;
 		
+        }                   
         public PRPCRepository()
         {
             Context = new PRPCRepositoryDbContext();
         }
     }
-}

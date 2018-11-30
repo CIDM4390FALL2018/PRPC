@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "J7AV2m4TiyDMBE12KkoJvtxOZyXyzxdswCjVG6XZI3YQ/u6D3jZoXc/kZTFNaZCuEa7VPvuW5wQAvrZtDZj2Qg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -43,7 +43,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "iS8CcgRkuLS9qmYuR+xOcaltJ99nMTzNuikCiUG8ziUa7HuSCjLe4su5PsuSt8YHbKZQSZVZEdC6vRYkD4Y99w==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -176,28 +176,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sseethoff\\.nuget\\packages\\": {},
+    "C:\\Users\\fordv\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\PRPC-master\\OAuthLib\\OAuthLib.csproj",
+      "projectUniqueName": "c:\\Users\\fordv\\Desktop\\CIDM4390\\PRPCCode\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
       "projectName": "OAuthLib",
-      "projectPath": "c:\\PRPC-master\\OAuthLib\\OAuthLib.csproj",
-      "packagesPath": "C:\\Users\\sseethoff\\.nuget\\packages\\",
-      "outputPath": "c:\\PRPC-master\\OAuthLib\\obj\\",
+      "projectPath": "c:\\Users\\fordv\\Desktop\\CIDM4390\\PRPCCode\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "packagesPath": "C:\\Users\\fordv\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\fordv\\Desktop\\CIDM4390\\PRPCCode\\PRPC\\PRPC\\OAuthLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sseethoff\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fordv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

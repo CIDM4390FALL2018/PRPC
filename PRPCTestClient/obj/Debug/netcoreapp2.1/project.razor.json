@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "c:\\Users\\fordv\\Desktop\\CIDM4390\\PRPCCode\\PRPC\\PRPC\\PRPCTestClient\\PRPCTestClient.csproj",
+  "ProjectFilePath": "c:\\Users\\BeccaBoo\\PRPC\\PRPCTestClient\\PRPCTestClient.csproj",
   "TargetFramework": "netcoreapp2.1",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "UnsupportedRazor",
-    "LanguageVersion": "1.0",
-    "Extensions": [
-      {
-        "ExtensionName": "UnsupportedRazorExtension"
-      }
-    ]
-  }
+  "Configuration": null
 }

@@ -7,14 +7,19 @@ namespace PRPCRepositoryLib
     {
         public PRPCRepositoryDbContext Context {get; set;}    
 		
-		
-		public updateUser(user)
+		//Rebecca's LINQ
+		public updateUser(user){
+            var queryUser = from user in Users
+                            where User.Email = Input.Email
+                            select User;
+        }
+        //Luke & Hosu's LINQ
 		public updateUser_OnClick(string Email, string FirstName, string LastName, 
                             string Password, string ConfirmPassword,
 							string PhoneNumber, String Address,
 							String City, string State, string ZipCode,
 							bool AcceptText = false)
-{
+                {
             var queryNewUser = from Email in Users
                                 where Users.Email == //specific user? currently entered email?
                                 select Email;
@@ -34,10 +39,21 @@ namespace PRPCRepositoryLib
                 Console.WriteLine(e);
                 //provide exceptions
             }
-
 }
-		
-		public createuser(user)
+		public createuser(user){
+
+        }
+        //Rebecca's LINQ statement
+        public CreateUser(string Email, string FirstName, string LastName, 
+                            string Password, string ConfirmPassword,
+							string PhoneNumber, String Address,
+							String City, string State, string ZipCode,
+							bool AcceptText = false){
+            var createUserQuery = from user in Users
+                                where User.Email = null
+                                select //something to create user;
+                            }
+        //Luke & Hosu's LINQ
 		public CreateUser_OnClick(string Email, string FirstName, string LastName, 
                             string Password, string ConfirmPassword,
 							string PhoneNumber, String Address,
@@ -59,38 +75,33 @@ namespace PRPCRepositoryLib
                             /* var queryCreateUser = from Email in Users
                                                      where Users.Email = //specific user? currently entered email?
                                                      select Email */
-                            }
-
-
-            
-							
-		
+                            }				
+		//Rebecca's LINQ
 		public deleteUser(user){
-
+                var queryDeleteUser = from User in User
+                                      where User.Email = Input.Email    
+                                     select User;
         }
+        //Rebecca's LINQ
 		public deleteUser(string Email){
-
-
-            var queryDeleteUser = from Email in Users
-                                 where Users.Email =
-                                 select Email
-
+            var queryDeleteUser = from Email in User
+                                 where Users.Email = Input.Email
+                                 select User;
                             }
-            
-        }
-		
-		
+        }		
 		//PasswordRecoverySMS, PasswordRecoveryEmail, SMS Verification
+        //Rebecca's LINQ
         public FindUserFromEmail(string Email){
            // find User.Email in user table and return User   
-           var queryUsers = from Email in Users      
-                            where Users.Email =  
+           var queryUserFromEmail = from Email in Users      
+                            where User.Email =  
                             select User;
         }
+        //Rebecca's LINQ
 		public FindUserFromPhoneNumber(string PhoneNumber){
            // find User.PhoneNumber in user table and return User   
-           var queryUsers = from PhoneNumber in Users
-                            where Users.PhoneNumber =
+           var queryUserFromPhoneNumber = from PhoneNumber in User
+                            where User.PhoneNumber = Input.PhoneNumber
                             select User;
 		
         }                   

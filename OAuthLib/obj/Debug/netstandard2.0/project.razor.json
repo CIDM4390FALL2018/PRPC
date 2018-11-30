@@ -1,14 +1,6 @@
 {
-  "ProjectFilePath": "c:\\Users\\fordv\\Desktop\\CIDM4390\\PRPCCode\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
+  "ProjectFilePath": "c:\\Users\\BeccaBoo\\PRPC\\OAuthLib\\OAuthLib.csproj",
   "TargetFramework": "netstandard2.0",
   "TagHelpers": [],
-  "Configuration": {
-    "ConfigurationName": "UnsupportedRazor",
-    "LanguageVersion": "1.0",
-    "Extensions": [
-      {
-        "ExtensionName": "UnsupportedRazorExtension"
-      }
-    ]
-  }
+  "Configuration": null
 }

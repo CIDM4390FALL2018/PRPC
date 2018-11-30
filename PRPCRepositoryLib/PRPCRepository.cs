@@ -50,7 +50,9 @@ namespace PRPCRepositoryLib
             }
 }
 		public createuser(user){
-
+                var queryCreateUsers = from user in User        
+                                      where User.Email = Input.Email
+                                      select User;
         }
         //Rebecca's LINQ statement
         public CreateUser(string Email, string FirstName, string LastName, 
@@ -58,7 +60,7 @@ namespace PRPCRepositoryLib
 							string PhoneNumber, String Address,
 							String City, string State, string ZipCode,
 							bool AcceptText = false){
-            var createUserQuery = from user in Users
+            var createUserQuery = from user in User
                                 where User.Email = null
                                 select //something to create user;
                             }

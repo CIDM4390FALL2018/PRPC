@@ -27,13 +27,27 @@ namespace PRPCRepositoryLib
 							String City, string State, string ZipCode,
 							bool AcceptText = false){
 
+
+                            var queryCreateUser = from Email in Users
+                                                     where Users.Email 
+                                                     select Email
                             }
+
+
+            
 							
 		
 		public deleteUser(user){
 
         }
 		public deleteUser(string Email){
+
+
+            var queryDeleteUser = from Email in Users
+                                 where Users.Email 
+                                 select Email
+
+                            }
             
         }
 		

@@ -1377,11 +1377,10 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection/2.0.0": {
-      "sha512": "V6xeuEEpIIygDHtOtJ+0X0qkKtVSUS1+kwOC3O4pH0depJf8AfofGo8hanOxoRgooj7WmTtPcgOIjwAteEe28A==",
+      "sha512": "wakg18gHYiUL1pcjjyZuYk6OvDpbSw1E7IWxm78TMepsr+gQ8W0tWzuRm0q/9RFblngwPwo15rrgZSUV51W5Iw==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection/2.0.0",
       "files": [
-        ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512",
@@ -1389,11 +1388,10 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
-      "sha512": "P4dK3DZQFsp7fFzkBu9H9jesBj0KB3O9c50n9FeAOIF+A8aQKBRj63luC9gPqvcedNdMfYQoEUe5dLps1sqvuA==",
+      "sha512": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
       "files": [
-        ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
@@ -4724,28 +4722,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Coolb\\.nuget\\packages\\": {},
+    "C:\\Users\\Rebecca Vengen\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\New folder\\PRPC\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
+      "projectUniqueName": "C:\\Users\\Rebecca Vengen\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
       "projectName": "SMSVerifyLib",
-      "projectPath": "C:\\New folder\\PRPC\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
-      "packagesPath": "C:\\Users\\Coolb\\.nuget\\packages\\",
-      "outputPath": "C:\\New folder\\PRPC\\PRPC\\SMSVerifyLib\\obj\\",
+      "projectPath": "C:\\Users\\Rebecca Vengen\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
+      "packagesPath": "C:\\Users\\Rebecca Vengen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rebecca Vengen\\PRPC\\SMSVerifyLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Coolb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Rebecca Vengen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

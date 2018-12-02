@@ -15,3 +15,12 @@ C:\New folder\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.Assem
 C:\New folder\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfo.cs
 C:\New folder\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.dll
 C:\New folder\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.pdb
+C:\Users\Rebecca Vengen\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.deps.json
+C:\Users\Rebecca Vengen\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.dll
+C:\Users\Rebecca Vengen\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.pdb
+C:\Users\Rebecca Vengen\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.csprojAssemblyReference.cache
+C:\Users\Rebecca Vengen\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.csproj.CoreCompileInputs.cache
+C:\Users\Rebecca Vengen\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfoInputs.cache
+C:\Users\Rebecca Vengen\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfo.cs
+C:\Users\Rebecca Vengen\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.dll
+C:\Users\Rebecca Vengen\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.pdb

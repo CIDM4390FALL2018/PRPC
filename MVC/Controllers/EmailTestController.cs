@@ -22,10 +22,10 @@ namespace MVC.Controllers
         public async Task<IActionResult> Index()
         {
             PRPCUser user = await GetCurrentUserAsync();
-            EmailConfirmation email = new EmailConfirmation();
+            EmailSender email = new EmailSender();
             ViewData["name"] = user.FName;
             ViewData["email"] = user.Email;
-            ViewData["messageResult"] = email.VerifyEmail(user.Email, user.FName);
+            ViewData["messageResult"] = email.SendEmailAsync(user.Email, user.FName, message:"confirm");
            
             return View();
             //try async

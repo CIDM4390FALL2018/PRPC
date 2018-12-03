@@ -1,4 +1,5 @@
 using System;
+using dotenv.net;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -6,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MVC.Areas.Identity.Data;
+using SendGridLib;
 
 [assembly: HostingStartup(typeof(MVC.Areas.Identity.IdentityHostingStartup))]
 namespace MVC.Areas.Identity
@@ -24,6 +26,9 @@ namespace MVC.Areas.Identity
                     config.SignIn.RequireConfirmedEmail = true;
                 })
                     .AddEntityFrameworkStores<PRPCIdentityDbContext>();
+
+                    services.AddSingleton<EmailSender>();
+                    DotEnv.Config();
             });
         }
     }

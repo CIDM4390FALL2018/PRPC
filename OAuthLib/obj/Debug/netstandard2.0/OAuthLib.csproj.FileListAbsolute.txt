@@ -15,3 +15,12 @@ C:\New folder\PRPC\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.AssemblyInfoI
 C:\New folder\PRPC\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.AssemblyInfo.cs
 C:\New folder\PRPC\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.dll
 C:\New folder\PRPC\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.pdb
+D:\FinalPRPC\PRPC\OAuthLib\bin\Debug\netstandard2.0\OAuthLib.deps.json
+D:\FinalPRPC\PRPC\OAuthLib\bin\Debug\netstandard2.0\OAuthLib.dll
+D:\FinalPRPC\PRPC\OAuthLib\bin\Debug\netstandard2.0\OAuthLib.pdb
+D:\FinalPRPC\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.csprojAssemblyReference.cache
+D:\FinalPRPC\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.csproj.CoreCompileInputs.cache
+D:\FinalPRPC\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.AssemblyInfoInputs.cache
+D:\FinalPRPC\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.AssemblyInfo.cs
+D:\FinalPRPC\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.dll
+D:\FinalPRPC\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.pdb

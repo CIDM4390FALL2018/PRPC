@@ -176,23 +176,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Coolb\\.nuget\\packages\\": {},
+    "C:\\Users\\jv954091\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\New folder\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "projectUniqueName": "C:\\Fall2018\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
       "projectName": "OAuthLib",
-      "projectPath": "C:\\New folder\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
-      "packagesPath": "C:\\Users\\Coolb\\.nuget\\packages\\",
-      "outputPath": "C:\\New folder\\PRPC\\PRPC\\OAuthLib\\obj\\",
+      "projectPath": "C:\\Fall2018\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "packagesPath": "C:\\Users\\jv954091\\.nuget\\packages\\",
+      "outputPath": "C:\\Fall2018\\PRPC\\PRPC\\OAuthLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Coolb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jv954091\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

@@ -49,8 +49,10 @@ namespace MVC
                 .AddFacebook(facebookOptions =>
                 {
                    // string AppId = "2033389120292330";
-                    facebookOptions.AppId = Configuration["Authentication:Facebook:2033389120292330"];
-                    facebookOptions.AppSecret = Configuration["Authentication:Facebook:96fb05cabb7c05b288ac0548be27d475"];
+                   // facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
+                    facebookOptions.AppId = "2033389120292330";
+                    facebookOptions.AppSecret = "96fb05cabb7c05b288ac0548be27d475";
+                    return View();
                 });
              services.Configure<CookiePolicyOptions>(options =>
             {

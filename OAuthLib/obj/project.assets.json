@@ -176,23 +176,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rebecca Vengen\\.nuget\\packages\\": {},
+    "C:\\Users\\BeccaBoo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rebecca Vengen\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "projectUniqueName": "C:\\Users\\BeccaBoo\\PRPC\\OAuthLib\\OAuthLib.csproj",
       "projectName": "OAuthLib",
-      "projectPath": "C:\\Users\\Rebecca Vengen\\PRPC\\OAuthLib\\OAuthLib.csproj",
-      "packagesPath": "C:\\Users\\Rebecca Vengen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rebecca Vengen\\PRPC\\OAuthLib\\obj\\",
+      "projectPath": "C:\\Users\\BeccaBoo\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "packagesPath": "C:\\Users\\BeccaBoo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BeccaBoo\\PRPC\\OAuthLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Rebecca Vengen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BeccaBoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

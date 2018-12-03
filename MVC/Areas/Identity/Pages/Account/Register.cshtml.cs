@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using MVC.Areas.Identity.Data;
+using SendGridLib;
 
 namespace MVC.Areas.Identity.Pages.Account
 {
@@ -19,13 +20,13 @@ namespace MVC.Areas.Identity.Pages.Account
         private readonly SignInManager<PRPCUser> _signInManager;
         private readonly UserManager<PRPCUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
-        private readonly IEmailSender _emailSender;
+        private readonly EmailConfirmation _emailSender;
 
         public RegisterModel(
             UserManager<PRPCUser> userManager,
             SignInManager<PRPCUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            EmailConfirmation emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -127,8 +128,8 @@ namespace MVC.Areas.Identity.Pages.Account
                         values: new { userId = user.Id, code = code },
                         protocol: Request.Scheme);
 
-                    await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-                        $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    //await _emailSender.VerifyEmail(Input.Email, Input.FName, Subject:"Confirm your email",
+                        //Message:$"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return LocalRedirect(returnUrl);

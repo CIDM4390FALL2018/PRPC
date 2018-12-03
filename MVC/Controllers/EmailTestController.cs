@@ -25,7 +25,7 @@ namespace MVC.Controllers
             EmailConfirmation email = new EmailConfirmation();
             ViewData["name"] = user.FName;
             ViewData["email"] = user.Email;
-            ViewData["messageResult"] = email.VerifyEmail(user.FName,user.Email );
+            ViewData["messageResult"] = email.VerifyEmail(user.Email, user.FName);
            
             return View();
             //try async

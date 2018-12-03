@@ -38,25 +38,11 @@ namespace SendGridLib
         }
     }
 }
+           
+           
 
 
-            /* public string UrlGenerator(int uniqueId){
-            {   
-                const string availableChars =
-                    "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-                
-                using (var generator = new RNGCryptoServiceProvider())
-                {
-                    var bytes = new byte [16];
-                    generator.GetBytes(bytes);
-                    var chars = bytes 
-                        .Select(b => availableChars[b % availableChars.Length]);
-                    var token = new string (chars.ToArray());
-                    return uniqueId + token;
-                }
-            }
-            }*/
-            public string VerifyEmail(string userEmail, string userName)
+              public string VerifyEmail(string Email, string FName)
             {
              Execute().Wait();
 
@@ -68,18 +54,18 @@ namespace SendGridLib
 
             var msg = new SendGridMessage();
             msg.SetFrom(new EmailAddress ("troyreeves2@gmail.com", "Troy Reeves"));
-            msg.AddTo(new EmailAddress(userEmail, userName));
+            msg.AddTo(new EmailAddress(Email, FName));
             msg.SetTemplateId("d-c99a05d84f8649a9a72ea35ae78b20b4");
             //var from = new EmailAddress("troyreeves2@gmail.com", "Example User");
-            //var subject = "Welcome To SendGrid";
-            //var to = new EmailAddress("troyreeves2@gmail.com", "Example User");
-            //var plainTextContent = "and easy to do anywhere, even with C#";
-            //var htmlContent = "<strong>and easy to do anywhere, even with C#</strong>";
+            //var subject =Subject;
+            //var to = new EmailAddress(Email, FName);
+            //var plainTextContent = Message;
+            //var htmlContent = Message;
             //var msg = MailHelper.CreateSingleEmail(from, to, subject, plainTextContent, htmlContent);
             var response = await client.SendEmailAsync(msg);
             
             }
-            return userEmail + userName;
+            return FName + Email;
             }
             
             public void PasswordReset(string userEmail, string userName)

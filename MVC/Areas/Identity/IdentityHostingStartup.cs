@@ -19,7 +19,10 @@ namespace MVC.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("PRPCIdentityDbContextConnection")));
 
-                services.AddDefaultIdentity<PRPCUser>()
+                services.AddDefaultIdentity<PRPCUser>(config =>
+                {
+                    config.SignIn.RequireConfirmedEmail = true;
+                })
                     .AddEntityFrameworkStores<PRPCIdentityDbContext>();
             });
         }

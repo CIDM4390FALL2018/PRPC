@@ -1,6 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - MVC</title>
@@ -17,27 +20,19 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">MVC</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                     <li class="nav-item active">
+                   <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="About">Map</a></li>
+                    <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
-                <partial name="_LoginPartial" />
+                 <partial name="_LoginPartial" />
             </div>
-        </div>
-    </nav>
+        </nav>
 
     <partial name="_CookieConsentPartial" />
 

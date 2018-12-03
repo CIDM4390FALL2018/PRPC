@@ -176,28 +176,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Coolb\\.nuget\\packages\\": {},
+    "C:\\Users\\fordv\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\New folder\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "projectUniqueName": "c:\\Users\\fordv\\Desktop\\CIDM4390\\PRPCCode\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
       "projectName": "OAuthLib",
-      "projectPath": "C:\\New folder\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
-      "packagesPath": "C:\\Users\\Coolb\\.nuget\\packages\\",
-      "outputPath": "C:\\New folder\\PRPC\\PRPC\\OAuthLib\\obj\\",
+      "projectPath": "c:\\Users\\fordv\\Desktop\\CIDM4390\\PRPCCode\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "packagesPath": "C:\\Users\\fordv\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\fordv\\Desktop\\CIDM4390\\PRPCCode\\PRPC\\PRPC\\OAuthLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Coolb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fordv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

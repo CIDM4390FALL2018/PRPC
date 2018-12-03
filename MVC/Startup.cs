@@ -52,7 +52,7 @@ namespace MVC
                    // facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
                     facebookOptions.AppId = "2033389120292330";
                     facebookOptions.AppSecret = "96fb05cabb7c05b288ac0548be27d475";
-                    return View();
+                    RedirectToPageResult = "https://localhost:5001";
                 });
              services.Configure<CookiePolicyOptions>(options =>
             {

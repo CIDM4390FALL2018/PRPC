@@ -31,6 +31,11 @@ namespace MVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //added here, I think just need to figure out name of dbcontext and application user and identity role
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                    .AddEntityFrameworkStores<prpcDbContext>()
+                    .AddDefaultTokenProviders();
+                    //end of added
             services
                 .AddAuthentication(options =>
                 {
@@ -45,13 +50,24 @@ namespace MVC
                     options.ConsumerSecret = "jiUJDFe0aW8oabhuIkWPZMwp";
                 });
                 */
-                .AddCookie()
+                
+                /*.AddCookie()*/
+                .AddCookie(options =>
+                {
+                    options.LoginPath ="/login";
+                    //options.LogoutPath ="/logout";
+                })
                 .AddFacebook(facebookOptions =>
                 {
                    // string AppId = "2033389120292330";
                    // facebookOptions.AppId = Configuration["Authentication:Facebook:AppId"];
                     facebookOptions.AppId = "2033389120292330";
                     facebookOptions.AppSecret = "96fb05cabb7c05b288ac0548be27d475";
+                    /* app.UseCookieAuthentication(new CookieAuthenticationOptions{
+                    LoginPath = new PathString("/Index/"),
+                   // AuthenticationType = "Facebook Authentication",
+                },
+                    )*/
                    // RedirectToPageResult = "https://localhost:5001";
                 });
              services.Configure<CookiePolicyOptions>(options =>
@@ -60,8 +76,13 @@ namespace MVC
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
-
+//added below here, didn't fix it
+             services.ConfigureApplicationCookie(options =>
+             {
+                 options.LoginPath = "/Identity/Account/Login";
+                 options.SlidingExpiration = true;
+             });
+//end of adding
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         
         //Added below

@@ -1,0 +1,14 @@
+D:\PRPCFinal\prpc\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.csprojAssemblyReference.cache
+D:\PRPCFinal\prpc\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.csproj.CoreCompileInputs.cache
+D:\PRPCFinal\prpc\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.AssemblyInfoInputs.cache
+D:\PRPCFinal\prpc\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.AssemblyInfo.cs
+D:\PRPCFinal\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridClient.deps.json
+D:\PRPCFinal\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridClient.runtimeconfig.json
+D:\PRPCFinal\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridClient.runtimeconfig.dev.json
+D:\PRPCFinal\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridClient.dll
+D:\PRPCFinal\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridClient.pdb
+D:\PRPCFinal\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridLib.dll
+D:\PRPCFinal\PRPC\SendGridClient\bin\Debug\netcoreapp2.1\SendGridLib.pdb
+D:\PRPCFinal\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.csproj.CopyComplete
+D:\PRPCFinal\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.dll
+D:\PRPCFinal\PRPC\SendGridClient\obj\Debug\netcoreapp2.1\SendGridClient.pdb

@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using dotenv.net;
 using System.Security.Cryptography;
 using System.Linq;
+using SendGridLib;
 
 namespace SendGridTests
 {

@@ -19,6 +19,12 @@ namespace MVC.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("PRPCIdentityDbContextConnection")));
 
+                services.AddAuthentication().AddFacebook(facebookOptions =>
+                {
+                    facebookOptions.AppId = "915051392039430";
+                    facebookOptions.AppSecret = "ff6dd7877bc951f1414415b4f0c5cd73";
+                });
+
                 services.AddDefaultIdentity<PRPCUser>()
                     .AddEntityFrameworkStores<PRPCIdentityDbContext>();
             });

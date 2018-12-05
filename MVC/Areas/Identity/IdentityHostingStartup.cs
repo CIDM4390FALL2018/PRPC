@@ -25,6 +25,11 @@ namespace MVC.Areas.Identity
                     facebookOptions.AppSecret = "ff6dd7877bc951f1414415b4f0c5cd73";
                 });
 
+                services.AddAuthentication().AddGoogle(googleOptions =>
+                {
+                    googleOptions.ClientId = "662777637634-vb4qdskhiv55ftcchc2drujkqv03om6b.apps.googleusercontent.com";
+                    googleOptions.ClientSecret = "jiUJDFe0aW8oabhuIkWPZMwp";
+                });
                 services.AddDefaultIdentity<PRPCUser>()
                     .AddEntityFrameworkStores<PRPCIdentityDbContext>();
             });

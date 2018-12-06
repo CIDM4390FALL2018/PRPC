@@ -66,44 +66,7 @@ namespace SendGridTests
 
         }
 
-        [Fact]
-        public void TestCreateSingleEmail()
-        {
-            var msg = MailHelper.CreateSingleEmail(new EmailAddress("test@example.com", "Example User"),
-                                                   new EmailAddress("test@example.com"),
-                                                   "Test Subject",
-                                                   "Plain Text Content",
-                                                   "HTML Content");
-            Assert.True(msg.Serialize() == "{\"from\":{\"name\":\"Example User\",\"email\":\"test@example.com\"},\"personalizations\":[{\"to\":[{\"email\":\"test@example.com\"}],\"subject\":\"Test Subject\"}],\"content\":[{\"type\":\"text/plain\",\"value\":\"Plain Text Content\"},{\"type\":\"text/html\",\"value\":\"HTML Content\"}]}");
-
-            var msg2 = MailHelper.CreateSingleEmail(new EmailAddress("test@example.com", "Example User"),
-                                               new EmailAddress("test@example.com"),
-                                               "Test Subject",
-                                               null,
-                                               "HTML Content");
-            Assert.True(msg2.Serialize() == "{\"from\":{\"name\":\"Example User\",\"email\":\"test@example.com\"},\"personalizations\":[{\"to\":[{\"email\":\"test@example.com\"}],\"subject\":\"Test Subject\"}],\"content\":[{\"type\":\"text/html\",\"value\":\"HTML Content\"}]}");
-
-            var msg3 = MailHelper.CreateSingleEmail(new EmailAddress("test@example.com", "Example User"),
-                                                   new EmailAddress("test@example.com"),
-                                                   "Test Subject",
-                                                   "Plain Text Content",
-                                                   null);
-            Assert.True(msg3.Serialize() == "{\"from\":{\"name\":\"Example User\",\"email\":\"test@example.com\"},\"personalizations\":[{\"to\":[{\"email\":\"test@example.com\"}],\"subject\":\"Test Subject\"}],\"content\":[{\"type\":\"text/plain\",\"value\":\"Plain Text Content\"}]}");
-
-            var msg4 = MailHelper.CreateSingleEmail(new EmailAddress("test@example.com", "Example User"),
-                                               new EmailAddress("test@example.com"),
-                                               "Test Subject",
-                                               "",
-                                               "HTML Content");
-            Assert.True(msg4.Serialize() == "{\"from\":{\"name\":\"Example User\",\"email\":\"test@example.com\"},\"personalizations\":[{\"to\":[{\"email\":\"test@example.com\"}],\"subject\":\"Test Subject\"}],\"content\":[{\"type\":\"text/html\",\"value\":\"HTML Content\"}]}");
-
-            var msg5 = MailHelper.CreateSingleEmail(new EmailAddress("test@example.com", "Example User"),
-                                                   new EmailAddress("test@example.com"),
-                                                   "Test Subject",
-                                                   "Plain Text Content",
-                                                   "");
-            Assert.True(msg5.Serialize() == "{\"from\":{\"name\":\"Example User\",\"email\":\"test@example.com\"},\"personalizations\":[{\"to\":[{\"email\":\"test@example.com\"}],\"subject\":\"Test Subject\"}],\"content\":[{\"type\":\"text/plain\",\"value\":\"Plain Text Content\"}]}");
-
-        }
+    
+        
     }
 }

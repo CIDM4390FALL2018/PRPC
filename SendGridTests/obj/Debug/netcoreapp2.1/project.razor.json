@@ -1,6 +1,6 @@
 {
-  "ProjectFilePath": "/Users/sseethoff/Desktop/PRPC-EmailTests/SendGridLib/SendGridLib.csproj",
-  "TargetFramework": "netstandard2.0",
+  "ProjectFilePath": "/Users/sseethoff/Desktop/PRPC-EmailTests/SendGridTests/SendGridTests.csproj",
+  "TargetFramework": "netcoreapp2.1",
   "TagHelpers": [],
   "Configuration": {
     "ConfigurationName": "UnsupportedRazor",

@@ -2,7 +2,8 @@
 using System.Threading.Tasks;
 using Twilio;
 using Twilio.Rest.Api.V2010.Account;
-using dotenv.net;
+
+//using dotenv.net;
 
 namespace smsverifylibrary
 {
@@ -16,7 +17,7 @@ namespace smsverifylibrary
             public void VerifyText(string CustomerPhoneNumber)
             {
                 
-                DotEnv.Config();
+               // DotEnv.Config();
                 string accountSID = System.Environment.GetEnvironmentVariable("TWILIO_SID");
                 string authToken = System.Environment.GetEnvironmentVariable("TWILIO_AUTHTOKEN");
                 string TwilioNumber = System.Environment.GetEnvironmentVariable("TWILIO_PHONE");

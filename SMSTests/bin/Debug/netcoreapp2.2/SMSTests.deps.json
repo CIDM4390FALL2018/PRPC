@@ -1,11 +1,11 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v2.1",
+    "name": ".NETCoreApp,Version=v2.2",
     "signature": "d586a42b08bb8aeeb07863e31478397e710867c5"
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v2.1": {
+    ".NETCoreApp,Version=v2.2": {
       "SMSTests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.9.0",

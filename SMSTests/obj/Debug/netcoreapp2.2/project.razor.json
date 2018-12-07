@@ -1,6 +1,6 @@
 {
-  "ProjectFilePath": "/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSVerifyLib/SMSVerifyLib.csproj",
-  "TargetFramework": "netstandard2.0",
+  "ProjectFilePath": "/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/SMSTests.csproj",
+  "TargetFramework": "netcoreapp2.2",
   "TagHelpers": [],
   "Configuration": {
     "ConfigurationName": "UnsupportedRazor",

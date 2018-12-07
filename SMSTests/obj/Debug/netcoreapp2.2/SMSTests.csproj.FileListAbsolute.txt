@@ -1,0 +1,17 @@
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/bin/Debug/netcoreapp2.2/SMSTests.deps.json
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/bin/Debug/netcoreapp2.2/SMSTests.runtimeconfig.json
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/bin/Debug/netcoreapp2.2/SMSTests.runtimeconfig.dev.json
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/bin/Debug/netcoreapp2.2/SMSTests.dll
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/bin/Debug/netcoreapp2.2/SMSTests.pdb
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/obj/Debug/netcoreapp2.2/SMSTests.csprojAssemblyReference.cache
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/obj/Debug/netcoreapp2.2/SMSTests.csproj.CoreCompileInputs.cache
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/obj/Debug/netcoreapp2.2/SMSTests.AssemblyInfoInputs.cache
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/obj/Debug/netcoreapp2.2/SMSTests.AssemblyInfo.cs
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/obj/Debug/netcoreapp2.2/SMSTests.dll
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/obj/Debug/netcoreapp2.2/SMSTests.pdb
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/bin/Debug/netcoreapp2.2/SMSVerifyLib.dll
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/bin/Debug/netcoreapp2.2/SMSVerifyLib.pdb
+/Users/sseethoff/Desktop/PRPC-ReadSmS/SMSTests/obj/Debug/netcoreapp2.2/SMSTests.csproj.CopyComplete

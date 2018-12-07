@@ -27,8 +27,8 @@ namespace MVC.Areas.Identity
 
                 services.AddAuthentication().AddGoogle(googleOptions =>
                 {
-                    googleOptions.ClientId = "662777637634-vb4qdskhiv55ftcchc2drujkqv03om6b.apps.googleusercontent.com";
-                    googleOptions.ClientSecret = "jiUJDFe0aW8oabhuIkWPZMwp";
+                    googleOptions.ClientId = "227821793833-8opil5o96uss650ugpbjcjbmrs1a71lc.apps.googleusercontent.com";
+                    googleOptions.ClientSecret = "8Xqv8dNuXAm-jDGCNsGX6gTV";
                 });
 
                 services.AddDefaultIdentity<PRPCUser>()

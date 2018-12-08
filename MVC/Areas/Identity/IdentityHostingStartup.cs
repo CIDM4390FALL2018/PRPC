@@ -40,7 +40,7 @@ namespace MVC.Areas.Identity
                     .AddEntityFrameworkStores<PRPCIdentityDbContext>();
 
                     services.AddSingleton<EmailSender>();
-                    //DotEnv.Config();
+                    DotEnv.Config();
             });
         }
     }

@@ -658,7 +658,7 @@
     "dotenv.net/1.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kiZlyBQRNlPV8cQV0F/B8MJBvl52N6l7qVVd3AOHiux89VJLRd1JRuA3ktIw43r5S1y1IjdGyCMiQI/wmpRSRA==",
+      "sha512": "sha512-bUV/2XXe4LxlrIxIdge5h8dwmrKhRTh27S+jXH5ZshsAKoDyzdEs9nqVYdDdlmr+f8dBDY7fKRSBhC+RQSjgRA==",
       "path": "dotenv.net/1.0.4",
       "hashPath": "dotenv.net.1.0.4.nupkg.sha512"
     },
@@ -707,7 +707,7 @@
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
@@ -742,7 +742,7 @@
     "Sendgrid/9.10.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-G8CYo0oPP/on1D3QNfU27GMLCEUIii8/nGTLGnbmrddrRaRShdxpCHWZhxr02cwZDwAsx0WBCi+IjbJ+DpQo0A==",
+      "sha512": "sha512-i6208SyPFvZ5bJRUbOimhBF/axjhiS4xQX71+KWPhzWUJGHbGX+yfwPrUg5y0D3deQlQz94mHeWF6AGHSZ81jQ==",
       "path": "sendgrid/9.10.0",
       "hashPath": "sendgrid.9.10.0.nupkg.sha512"
     },
@@ -973,7 +973,7 @@
     "System.Text.Encodings.Web/4.3.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mbi9iwBNzw/W5qr0ZWg6+0SK77gIM37ACEUgdIrQ9W2tdQyAETZZI5s95EGBTBHwGWMBA2EH+ZCe/oztfFDQfQ==",
+      "sha512": "sha512-tcfPv+q/nK+5EsAxCLauIOd0kL+lZsXQ4lPKRnh8ex6O1Rm8WAN3LtF2GDFHyD0glSmUpIrgTnLhHCkMAKo3Ug==",
       "path": "system.text.encodings.web/4.3.1",
       "hashPath": "system.text.encodings.web.4.3.1.nupkg.sha512"
     },

@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MVC.Areas.Identity.Data;
+using SendGridLib;
+using dotenv.net;
 
 [assembly: HostingStartup(typeof(MVC.Areas.Identity.IdentityHostingStartup))]
 namespace MVC.Areas.Identity
@@ -31,8 +33,14 @@ namespace MVC.Areas.Identity
                     googleOptions.ClientSecret = "8Xqv8dNuXAm-jDGCNsGX6gTV";
                 });
 
-                services.AddDefaultIdentity<PRPCUser>()
+                services.AddDefaultIdentity<PRPCUser>(config =>
+                    {
+                        config.SignIn.RequireConfirmedEmail = true;
+                    })
                     .AddEntityFrameworkStores<PRPCIdentityDbContext>();
+
+                    services.AddSingleton<EmailSender>();
+                    DotEnv.Config();
             });
         }
     }

@@ -33,12 +33,3 @@ D:\FinalPRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoI
 D:\FinalPRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
 D:\FinalPRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
 D:\FinalPRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb
-c:\Users\colte\Documents\git\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.deps.json
-c:\Users\colte\Documents\git\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.dll
-c:\Users\colte\Documents\git\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.pdb
-c:\Users\colte\Documents\git\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csprojAssemblyReference.cache
-c:\Users\colte\Documents\git\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csproj.CoreCompileInputs.cache
-c:\Users\colte\Documents\git\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoInputs.cache
-c:\Users\colte\Documents\git\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
-c:\Users\colte\Documents\git\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
-c:\Users\colte\Documents\git\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb

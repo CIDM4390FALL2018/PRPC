@@ -52,9 +52,9 @@ namespace smsverifylibrary
         {
             
             DotEnv.Config();
-            string accountSID = System.Environment.GetEnvironmentVariable("AC374b0d6e7ef4cca803c0497c7ebda81a");
-            string authToken = System.Environment.GetEnvironmentVariable("750ad1b263c7ec5d059c7abec7060845");
-            string TwilioNumber = System.Environment.GetEnvironmentVariable("+18064244476");
+            string accountSID = System.Environment.GetEnvironmentVariable("TWILIO_SID");
+            string authToken = System.Environment.GetEnvironmentVariable("TWILIO_AUTHTOKEN");
+            string TwilioNumber = System.Environment.GetEnvironmentVariable("TWILIO_PHONE");
             string output = "";
             try
             {
@@ -89,9 +89,9 @@ namespace smsverifylibrary
             public void VerifyText(string CustomerPhoneNumber, string TextBody)
             {
 
-                string accountSID = System.Environment.GetEnvironmentVariable("AC374b0d6e7ef4cca803c0497c7ebda81a");
-                string authToken = System.Environment.GetEnvironmentVariable("750ad1b263c7ec5d059c7abec7060845");
-                string TwilioNumber = System.Environment.GetEnvironmentVariable("+18064244476");
+                string accountSID = System.Environment.GetEnvironmentVariable("TWILIO_SID");
+                string authToken = System.Environment.GetEnvironmentVariable("TWILIO_AUTHTOKEN");
+                string TwilioNumber = System.Environment.GetEnvironmentVariable("TWILIO_PHONE");
 
                 try
                 {

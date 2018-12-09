@@ -15,7 +15,6 @@ C:\New folder\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.Assem
 C:\New folder\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfo.cs
 C:\New folder\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.dll
 C:\New folder\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.pdb
-<<<<<<< HEAD
 C:\Fall2018\PRPC\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.deps.json
 C:\Fall2018\PRPC\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.dll
 C:\Fall2018\PRPC\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.pdb
@@ -25,23 +24,3 @@ C:\Fall2018\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.Assembl
 C:\Fall2018\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfo.cs
 C:\Fall2018\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.dll
 C:\Fall2018\PRPC\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.pdb
-=======
-c:\Users\colte\Documents\git\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.deps.json
-c:\Users\colte\Documents\git\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.dll
-c:\Users\colte\Documents\git\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.pdb
-c:\Users\colte\Documents\git\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.csprojAssemblyReference.cache
-c:\Users\colte\Documents\git\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.csproj.CoreCompileInputs.cache
-c:\Users\colte\Documents\git\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfoInputs.cache
-c:\Users\colte\Documents\git\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfo.cs
-c:\Users\colte\Documents\git\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.dll
-c:\Users\colte\Documents\git\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.pdb
-c:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.deps.json
-c:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.dll
-c:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.pdb
-c:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.csprojAssemblyReference.cache
-c:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.csproj.CoreCompileInputs.cache
-c:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfoInputs.cache
-c:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfo.cs
-c:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.dll
-c:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.pdb
->>>>>>> b7ea8cb5b0a3b4e4611c74bfc8702758535af405

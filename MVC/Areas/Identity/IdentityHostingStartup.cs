@@ -19,18 +19,6 @@ namespace MVC.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("PRPCIdentityDbContextConnection")));
 
-                services.AddAuthentication().AddFacebook(facebookOptions =>
-                {
-                    facebookOptions.AppId = "915051392039430";
-                    facebookOptions.AppSecret = "ff6dd7877bc951f1414415b4f0c5cd73";
-                });
-
-                services.AddAuthentication().AddGoogle(googleOptions =>
-                {
-                    googleOptions.ClientId = "227821793833-8opil5o96uss650ugpbjcjbmrs1a71lc.apps.googleusercontent.com";
-                    googleOptions.ClientSecret = "8Xqv8dNuXAm-jDGCNsGX6gTV";
-                });
-
                 services.AddDefaultIdentity<PRPCUser>()
                     .AddEntityFrameworkStores<PRPCIdentityDbContext>();
             });

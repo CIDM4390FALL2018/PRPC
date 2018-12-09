@@ -1,5 +1,9 @@
 {
-  "ProjectFilePath": "c:\\Fall2018\\PRPC\\2\\PRPC\\SendGridLib\\SendGridLib.csproj",
+<<<<<<< HEAD
+  "ProjectFilePath": "c:\\Fall2018\\PRPC\\PRPC\\SendGridLib\\SendGridLib.csproj",
+=======
+  "ProjectFilePath": "d:\\FinalPRPC\\PRPC\\SendGridLib\\SendGridLib.csproj",
+>>>>>>> b7ea8cb5b0a3b4e4611c74bfc8702758535af405
   "TargetFramework": "netstandard2.0",
   "TagHelpers": [],
   "Configuration": {

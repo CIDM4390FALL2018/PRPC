@@ -1382,6 +1382,11 @@
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection/2.0.0",
       "files": [
+<<<<<<< HEAD
+=======
+        ".nupkg.metadata",
+        ".signature.p7s",
+>>>>>>> b7ea8cb5b0a3b4e4611c74bfc8702758535af405
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512",
@@ -1393,6 +1398,11 @@
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
       "files": [
+<<<<<<< HEAD
+=======
+        ".nupkg.metadata",
+        ".signature.p7s",
+>>>>>>> b7ea8cb5b0a3b4e4611c74bfc8702758535af405
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
@@ -1426,10 +1436,12 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -1579,10 +1591,13 @@
       ]
     },
     "Newtonsoft.Json/10.0.1": {
-      "sha512": "ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
+      "sha512": "MOUhQfeI43upq9QiEv+7YYTDQPtEZEj9xB50MgplO1XF/aumP0f+TCYIHpZEmfsiahJJaXt/gdRFYLFEoF2VyQ==",
       "type": "package",
       "path": "newtonsoft.json/10.0.1",
+      "hasTools": true,
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -4723,28 +4738,46 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\jv954091\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\ccowart\\.nuget\\packages\\": {},
+>>>>>>> b7ea8cb5b0a3b4e4611c74bfc8702758535af405
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Fall2018\\PRPC\\2\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Fall2018\\PRPC\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
       "projectName": "SMSVerifyLib",
-      "projectPath": "c:\\Fall2018\\PRPC\\2\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
+      "projectPath": "C:\\Fall2018\\PRPC\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
       "packagesPath": "C:\\Users\\jv954091\\.nuget\\packages\\",
-      "outputPath": "c:\\Fall2018\\PRPC\\2\\PRPC\\SMSVerifyLib\\obj\\",
+      "outputPath": "C:\\Fall2018\\PRPC\\PRPC\\SMSVerifyLib\\obj\\",
+=======
+      "projectUniqueName": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
+      "projectName": "SMSVerifyLib",
+      "projectPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
+      "packagesPath": "C:\\Users\\ccowart\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\obj\\",
+>>>>>>> b7ea8cb5b0a3b4e4611c74bfc8702758535af405
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\jv954091\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+        "C:\\Users\\ccowart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> b7ea8cb5b0a3b4e4611c74bfc8702758535af405
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

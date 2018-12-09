@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Fall2018\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "projectUniqueName": "c:\\Fall2018\\PRPC\\2\\PRPC\\OAuthLib\\OAuthLib.csproj",
       "projectName": "OAuthLib",
-      "projectPath": "C:\\Fall2018\\PRPC\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "projectPath": "c:\\Fall2018\\PRPC\\2\\PRPC\\OAuthLib\\OAuthLib.csproj",
       "packagesPath": "C:\\Users\\jv954091\\.nuget\\packages\\",
-      "outputPath": "C:\\Fall2018\\PRPC\\PRPC\\OAuthLib\\obj\\",
+      "outputPath": "c:\\Fall2018\\PRPC\\2\\PRPC\\OAuthLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

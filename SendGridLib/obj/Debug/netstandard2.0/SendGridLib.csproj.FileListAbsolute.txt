@@ -24,3 +24,12 @@ C:\New folder\PRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.Assembl
 C:\New folder\PRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
 C:\New folder\PRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
 C:\New folder\PRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb
+d:\FinalPRPC\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.deps.json
+D:\FinalPRPC\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.dll
+D:\FinalPRPC\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.pdb
+D:\FinalPRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csprojAssemblyReference.cache
+D:\FinalPRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csproj.CoreCompileInputs.cache
+D:\FinalPRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoInputs.cache
+D:\FinalPRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
+D:\FinalPRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
+D:\FinalPRPC\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb

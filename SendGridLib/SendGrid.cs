@@ -3,40 +3,41 @@ using System.Threading.Tasks;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 using System.Collections.Generic;
-using dotenv.net;
+using System.Security.Cryptography;
+using System.Linq;
+using System.Text;
 
 namespace SendGridLib
 {
-        interface ISMTP
+        interface IEmailSender
         {
-            string EmailAddress(string ConfEmail);
+            string email(string userEmail);
+            string name (string userName);
         }
-
-        public class EmailConf
+        public class EmailSender 
         {
-            public void VerifyEmail(string ConfEmail)
-            {
-            Execute().Wait();
-
-             async Task Execute()
-            {
-            DotEnv.Config();
-            var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
-            var client = new SendGridClient(apiKey);
             
-            var msg = new SendGridMessage();
-            msg.SetFrom(new EmailAddress ("troyreeves2@gmail.com", "Troy Reeves"));
-            msg.AddTo(new EmailAddress("troyreeves2@gmail.com", "tray way"));
-            msg.SetTemplateId("d-c99a05d84f8649a9a72ea35ae78b20b4");
-            //var from = new EmailAddress("troyreeves2@gmail.com", "Example User");
-            //var subject = "Welcome To SendGrid";
-            //var to = new EmailAddress("troyreeves2@gmail.com", "Example User");
-            //var plainTextContent = "and easy to do anywhere, even with C#";
-            //var htmlContent = "<strong>and easy to do anywhere, even with C#</strong>";
-            //var msg = MailHelper.CreateSingleEmail(from, to, subject, plainTextContent, htmlContent);
-            var response = await client.SendEmailAsync(msg);
-            }
-           
-            }
-        }        
+            public Task SendEmailAsync(string email, string subject, string message)
+            {
+                return Execute( email, subject, message);
+            } 
+           public Task Execute( string email, string subject, string message)
+            {
+                var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY"); 
+                var client = new SendGridClient(apiKey);
+                var msg = new SendGridMessage()
+            {
+                From = new EmailAddress("prpc4390@gmail.com", "Troy Reeves"),
+                Subject = subject,
+                PlainTextContent = message,
+                HtmlContent = message
+            };
+            msg.AddTo(new EmailAddress(email));
+            msg.SetClickTracking(false, false);
+
+            return client.SendEmailAsync(msg); 
+        }
     }
+            
+}
+

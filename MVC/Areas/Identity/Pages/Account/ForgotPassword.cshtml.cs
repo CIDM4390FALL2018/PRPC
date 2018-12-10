@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
 using MVC.Areas.Identity.Data;
 using SendGridLib;
 
@@ -52,7 +53,7 @@ namespace MVC.Areas.Identity.Pages.Account
                 var callbackUrl = Url.Page(
                     "/Account/ResetPassword",
                     pageHandler: null,
-                    values: new { code },
+                    values: new { userId = user.Id, code = code },
                     protocol: Request.Scheme);
 
                 await _emailSender.SendEmailAsync(

@@ -12,24 +12,21 @@ using SendGridLib;
 [assembly: HostingStartup(typeof(MVC.Areas.Identity.IdentityHostingStartup))]
 namespace MVC.Areas.Identity
 {
-    public class IdentityHostingStartup : IHostingStartup
+     public class IdentityHostingStartup : IHostingStartup
+{
+    public void Configure(IWebHostBuilder builder)
     {
-        public void Configure(IWebHostBuilder builder)
-        {
-            builder.ConfigureServices((context, services) => {
-                services.AddDbContext<PRPCIdentityDbContext>(options =>
-                    options.UseSqlServer(
-                        context.Configuration.GetConnectionString("PRPCIdentityDbContextConnection")));
+        builder.ConfigureServices((context, services) => {
+            services.AddDbContext<PRPCIdentityDbContext>(options =>
+                options.UseSqlServer(
+                    context.Configuration.GetConnectionString("PRPCIdentityDbContextConnection")));
 
-                services.AddDefaultIdentity<PRPCUser>(config =>
+            services.AddDefaultIdentity<PRPCUser>(config =>
                 {
                     config.SignIn.RequireConfirmedEmail = true;
                 })
-                    .AddEntityFrameworkStores<PRPCIdentityDbContext>();
-
-                    services.AddSingleton<EmailSender>();
-                    DotEnv.Config();
-            });
-        }
+                .AddEntityFrameworkStores<PRPCIdentityDbContext>();
+        });
     }
+}
 }

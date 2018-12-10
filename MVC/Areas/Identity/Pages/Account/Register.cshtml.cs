@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using MVC.Areas.Identity.Data;
+using SendGridLib;
 
 namespace MVC.Areas.Identity.Pages.Account
 {
@@ -19,13 +20,13 @@ namespace MVC.Areas.Identity.Pages.Account
         private readonly SignInManager<PRPCUser> _signInManager;
         private readonly UserManager<PRPCUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
-        private readonly IEmailSender _emailSender;
+        private readonly EmailSender _emailSender;
 
         public RegisterModel(
             UserManager<PRPCUser> userManager,
             SignInManager<PRPCUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            EmailSender emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;

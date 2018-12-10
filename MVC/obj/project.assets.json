@@ -5040,7 +5040,7 @@
   },
   "libraries": {
     "dotenv.net/1.0.4": {
-      "sha512": "bUV/2XXe4LxlrIxIdge5h8dwmrKhRTh27S+jXH5ZshsAKoDyzdEs9nqVYdDdlmr+f8dBDY7fKRSBhC+RQSjgRA==",
+      "sha512": "kiZlyBQRNlPV8cQV0F/B8MJBvl52N6l7qVVd3AOHiux89VJLRd1JRuA3ktIw43r5S1y1IjdGyCMiQI/wmpRSRA==",
       "type": "package",
       "path": "dotenv.net/1.0.4",
       "files": [
@@ -5952,7 +5952,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
-      "sha512": "ab4+TZw3Sxqrr5TwrwVyABeQkhSxYMJXgG6yZw7T+r6Vz+hcOt+pK79o15ESG7kZvWAK9wRG7emnTIia5O6R1Q==",
+      "sha512": "fe1+dpy+eM4IX1zodsvkihO1Spuj0NecfStWzvkYoMo7/ziOsqSv4vFK36ZpBfHa4gpdCEwaU46EPzdq+ZDYhQ==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.1.2",
       "hasTools": true,
@@ -6413,7 +6413,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
-      "sha512": "4JcQJNDSyGXtz9ccBzSBmcPmKg7GiL4LYvtv+YG8C9waNP/xhwuvIycSQOF4a0V+J73JwUopA503O7vb8p5ZUQ==",
+      "sha512": "EJWaxi2bI47iEZen/nZkJEDZCrP9Oj3PJtMwBv34Z0ZvvdSkpgsdqlHSud8d5vC53LnCXLfBLewfqHcILDVSDw==",
       "type": "package",
       "path": "microsoft.codeanalysis.csharp.workspaces/2.8.0",
       "files": [
@@ -6442,7 +6442,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Workspaces.Common/2.8.0": {
-      "sha512": "AqCiNju6UZy9Sd8HKzxGbpbZf+P8gWpojfvs9hIRfwstqFMZ6OJXf69EUvqJ5C4rWrcf08F7G8WII74KBEFImQ==",
+      "sha512": "tJlJ99SD8bHBAXShOG/pXQ1K118cnsF01obEf9aAtdgLbw3yEPahZ7qvWeGMjrheUhvOsSkv/wTKYg9euKa8MQ==",
       "type": "package",
       "path": "microsoft.codeanalysis.workspaces.common/2.8.0",
       "files": [
@@ -6626,7 +6626,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/2.1.4": {
-      "sha512": "cn/sEABCjVEp+Ji8LaDjGc7kjD2fJ9y46GL7rTnP1imWmdEYr3eL1oTNKOukMCNwjEGf1pZid0f0LKXaWBGbHw==",
+      "sha512": "Ekl7Kjo5YrPahQ1FJJVSd1ZTnmbtCPdkbI8CMZfbGBQMtrYgBttHxE4bTA4+Ys69+BTRMc/AdWoCfRyioxZA+w==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.relational/2.1.4",
       "files": [
@@ -6639,7 +6639,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Sqlite/2.1.4": {
-      "sha512": "mY93We4zTw3nAUaJ8VUMk2iVYV/yAg5kmzw3ew9Nv7VSrlix9yVPz1/kZZ680sCDY3cpSTB5R5gn+3+UrZCGlA==",
+      "sha512": "d/3Eih3qphowTtkASx5HgzGOrDsYiKdXYPQnyLeJtpe9hJgOi2HrF11oQiPu6gaw9C0G+ALXicFNDB27R442Mg==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.sqlite/2.1.4",
       "files": [
@@ -6651,7 +6651,7 @@
       ]
     },
     "Microsoft.EntityFrameworkCore.Sqlite.Core/2.1.4": {
-      "sha512": "fDNobKc1Ffb3z56ckiWJ7J64pbVDBNiX5XdGGygr7GbwY/rG541NRTX8kXOSvkUZ2qNgAYDqAYjUTYMmzBnRCw==",
+      "sha512": "lmQhiLh+oXtcyIRXOu8F7VFdv56eYlGem36d7bHFiosK2jA6RBpynPe3hdVMcNWXoABUXIhS/WfN8+/I8ynmKg==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.sqlite.core/2.1.4",
       "files": [
@@ -7818,7 +7818,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/2.1.6": {
-      "sha512": "1yZNKeV7IdmE6d99v0KNB7uOyJC+yy+3dcVEZa0oXfejLFfc8NZOEnmm2PaMa1Y0A7jGIxZlzlh/K85QtKBn4Q==",
+      "sha512": "fK4Aq0pflx9CZRvgje/rT+yiOo4AKeFmwBy3X6C2H1BjGM2DaaAGk+/pfMhlAv2yTq1G2Uur09LT6qWfgqripw==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration/2.1.6",
       "files": [
@@ -7831,7 +7831,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.6": {
-      "sha512": "GtOK5XgMhihrDni5i6of/0PGEnIcBhv5+7Qau8+egstwH2XfjF+HLV+Y/rfC9XJY/S3IekrSkfsQaZq6H6QNcA==",
+      "sha512": "Jjf+0tIw/m2frEqyBUOZgBWkN4wmu/G4PqAbuEH/RLQSZE023ArrO10ge5Tw1HRNT/M3CD7LSCZSCmnY0ULD3w==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.contracts/2.1.6",
       "files": [
@@ -7844,7 +7844,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.6": {
-      "sha512": "WDBhIE71nayQEJgYe2R3gNutaBltQZsUxgsGsrOPJcUQGF8jLBgjgKfFExwnlhIX3UC0P6aTVkbfHSSRMYX8tg==",
+      "sha512": "iwUAiCT0SWTPKba56dNxo14DqwhyRzPDGuXE+HJoshOUECWiHeOV8UTYhzoLDeE4yeCGxcaXF3MEJ+N9TZGvcg==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.core/2.1.6",
       "files": [
@@ -7857,7 +7857,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.6": {
-      "sha512": "yMcDCrOxBo0HzTLEfKG2UZcm2e+rqUJ8QEmdpNn6p8efZFfVqRYN3t0hIE/CgpmVJZk4qkQGunclMcAwwNKu9g==",
+      "sha512": "6AimeVzoE7BmRnBh9petExo/cw0LhafVBGDiIjyTtnYADl3LRN6OmUzVqTcDn8NzsOXpKoOmgK8JbYk+nfthqg==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.design/2.1.6",
       "files": [
@@ -7880,7 +7880,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.6": {
-      "sha512": "ykwvX82RNWnvDS4dOYCAR1pff2Yfi+P+oi2IZDzHwiiuGvMtw02j+8tcTXN9D+Cj2ra4rZmemZTYkbhYClPN4g==",
+      "sha512": "tLFzUsUZn1sZnZFFmX3HTFm+hJar2yWkql7OY4v8K6Ynn9Gs5eDi3Uid7mDb60EttP3ekqcIDF0dKUgBQsM/oQ==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/2.1.6",
       "files": [
@@ -7894,7 +7894,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.6": {
-      "sha512": "UeSMEttk/xDxlWCOGyGtEmAdr7/xfI5SXZqg+63r6FX1xDY6C4E2TR+tzuLslAjgbh70C2QRrnOCKGVd+udOrg==",
+      "sha512": "NwDKmhDP/A+0WWMTK+3I5CHc7ykruNCSayVBmUrEX1nru5azArehIpNs2+ns7OkjagWmSLQJY/gGoL+E4xDdIg==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.templating/2.1.6",
       "files": [
@@ -7907,7 +7907,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.6": {
-      "sha512": "0S9tdtw4M+QQSL0UHux1e+uHnkFDv1kYm7DZGIlNevh07lG8u3iah4Fw2T190CZ+yv8cDw/nDTVcSZmxpICXVg==",
+      "sha512": "vtMMb7NqWXW8E692WUgmSVoNWR/qdH28Mfs8SdQsCVDJ/GTwjKyqSfzitG3I2hwLaQydf/KfaZ5I/qWPt520XA==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.utils/2.1.6",
       "files": [
@@ -7920,7 +7920,7 @@
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.6": {
-      "sha512": "afw8BL6XcCeVjIlExUmaSh/zuPzmCqmgYvcQ2x7e+kO+BR8X4Kp/JGqq9mnw2Ivh4Ii/YSU0KTWRLzhEvC0jxQ==",
+      "sha512": "v3DlaVPZZ20n37uIElNcSq+me+fZBjyJHtEhponH19E2d0LUKseDvoO3ek2qFNsRBhG+DBYiU7B2Q4eWLlJ8zw==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.6",
       "files": [
@@ -8332,7 +8332,7 @@
       ]
     },
     "NuGet.Frameworks/4.7.0": {
-      "sha512": "KuqDbPzjOWbUM6gPMbkvdhlQ10roQAoMM7mNZ8hcY/fH+9J4Zc+qT8dLWoNzGyr0OrxQVdZdbSjy/fxwoICgGg==",
+      "sha512": "qbXaB76XYUVLocLBs8Z9TS/ERGK2wm797feO+0JEPFvT7o7MRadOR77mqaSD4J1k8G+DlZQyq+MlkCuxrkr3ag==",
       "type": "package",
       "path": "nuget.frameworks/4.7.0",
       "files": [
@@ -8637,7 +8637,7 @@
       ]
     },
     "Sendgrid/9.10.0": {
-      "sha512": "i6208SyPFvZ5bJRUbOimhBF/axjhiS4xQX71+KWPhzWUJGHbGX+yfwPrUg5y0D3deQlQz94mHeWF6AGHSZ81jQ==",
+      "sha512": "G8CYo0oPP/on1D3QNfU27GMLCEUIii8/nGTLGnbmrddrRaRShdxpCHWZhxr02cwZDwAsx0WBCi+IjbJ+DpQo0A==",
       "type": "package",
       "path": "sendgrid/9.10.0",
       "files": [
@@ -13524,11 +13524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\MVC\\MVC.csproj",
+      "projectUniqueName": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\MVC\\MVC.csproj",
       "projectName": "MVC",
-      "projectPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\MVC\\MVC.csproj",
+      "projectPath": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\MVC\\MVC.csproj",
       "packagesPath": "C:\\Users\\ccowart\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\MVC\\obj\\",
+      "outputPath": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13547,11 +13547,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj": {
-              "projectPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj"
+            "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj": {
+              "projectPath": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj"
             },
-            "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj": {
-              "projectPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj"
+            "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj": {
+              "projectPath": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj"
             }
           }
         }

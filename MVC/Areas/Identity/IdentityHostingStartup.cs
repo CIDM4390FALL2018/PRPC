@@ -26,6 +26,8 @@ namespace MVC.Areas.Identity
                     config.SignIn.RequireConfirmedEmail = true;
                 })
                 .AddEntityFrameworkStores<PRPCIdentityDbContext>();
+
+                services.AddSingleton<EmailSender>();
         });
     }
 }

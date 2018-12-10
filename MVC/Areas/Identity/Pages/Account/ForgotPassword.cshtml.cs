@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MVC.Areas.Identity.Data;
-using SendGridLib;
 
 namespace MVC.Areas.Identity.Pages.Account
 {
@@ -17,9 +16,9 @@ namespace MVC.Areas.Identity.Pages.Account
     public class ForgotPasswordModel : PageModel
     {
         private readonly UserManager<PRPCUser> _userManager;
-        private readonly EmailSender _emailSender;
+        private readonly IEmailSender _emailSender;
 
-        public ForgotPasswordModel(UserManager<PRPCUser> userManager, EmailSender emailSender)
+        public ForgotPasswordModel(UserManager<PRPCUser> userManager, IEmailSender emailSender)
         {
             _userManager = userManager;
             _emailSender = emailSender;

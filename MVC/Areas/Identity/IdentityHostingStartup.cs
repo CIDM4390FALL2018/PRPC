@@ -6,9 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MVC.Areas.Identity.Data;
- using SendGridLib; 
 
- 
 [assembly: HostingStartup(typeof(MVC.Areas.Identity.IdentityHostingStartup))]
 namespace MVC.Areas.Identity
 {
@@ -20,7 +18,7 @@ namespace MVC.Areas.Identity
                 services.AddDbContext<PRPCIdentityDbContext>(options =>
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("PRPCIdentityDbContextConnection")));
-                        
+
                 services.AddAuthentication().AddFacebook(facebookOptions =>
                 {
                     facebookOptions.AppId = "915051392039430";
@@ -33,13 +31,8 @@ namespace MVC.Areas.Identity
                     googleOptions.ClientSecret = "8Xqv8dNuXAm-jDGCNsGX6gTV";
                 });
 
-                services.AddDefaultIdentity<PRPCUser>(config =>
-                    {
-                        config.SignIn.RequireConfirmedEmail = true;
-                    })
+                services.AddDefaultIdentity<PRPCUser>()
                     .AddEntityFrameworkStores<PRPCIdentityDbContext>();
-
-                    services.AddSingleton<EmailSender>();
             });
         }
     }

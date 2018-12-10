@@ -5044,6 +5044,7 @@
       "type": "package",
       "path": "dotenv.net/1.0.4",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "dotenv.net.1.0.4.nupkg.sha512",
         "dotenv.net.nuspec",
@@ -8640,6 +8641,7 @@
       "type": "package",
       "path": "sendgrid/9.10.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net452/SendGrid.dll",
         "lib/net452/SendGrid.pdb",
@@ -13522,11 +13524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\MVC\\MVC.csproj",
+      "projectUniqueName": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\MVC\\MVC.csproj",
       "projectName": "MVC",
-      "projectPath": "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\MVC\\MVC.csproj",
+      "projectPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\MVC\\MVC.csproj",
       "packagesPath": "C:\\Users\\ccowart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\MVC\\obj\\",
+      "outputPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13545,11 +13547,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj": {
-              "projectPath": "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj"
+            "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj": {
+              "projectPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj"
             },
-            "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj": {
-              "projectPath": "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj"
+            "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj": {
+              "projectPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj"
             }
           }
         }

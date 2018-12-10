@@ -19,13 +19,13 @@ namespace MVC.Areas.Identity.Pages.Account
         private readonly SignInManager<PRPCUser> _signInManager;
         private readonly UserManager<PRPCUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
-        private readonly EmailSender _emailSender;
+        private readonly IEmailSender _emailSender;
 
         public RegisterModel(
             UserManager<PRPCUser> userManager,
             SignInManager<PRPCUser> signInManager,
             ILogger<RegisterModel> logger,
-            EmailSender emailSender)
+            IEmailSender emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;

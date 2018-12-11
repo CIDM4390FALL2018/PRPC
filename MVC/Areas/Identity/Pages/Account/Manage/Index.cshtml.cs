@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MVC.Areas.Identity.Data;
+using SendGridLib;
 
 namespace MVC.Areas.Identity.Pages.Account.Manage
 {
@@ -16,12 +17,12 @@ namespace MVC.Areas.Identity.Pages.Account.Manage
     {
         private readonly UserManager<PRPCUser> _userManager;
         private readonly SignInManager<PRPCUser> _signInManager;
-        private readonly IEmailSender _emailSender;
+        private readonly EmailSender _emailSender;
 
         public IndexModel(
             UserManager<PRPCUser> userManager,
             SignInManager<PRPCUser> signInManager,
-            IEmailSender emailSender)
+            EmailSender emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;

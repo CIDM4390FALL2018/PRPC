@@ -14,8 +14,6 @@ namespace MVC.Areas.Identity.Data
         [PersonalData]
         public string LName { get; set; }
         [PersonalData]
-        public string Email { get; set; }
-        [PersonalData]
         public string PhoneNumber { get; set; }
         [PersonalData]
         public string Address { get; set; }

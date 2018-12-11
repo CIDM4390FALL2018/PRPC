@@ -53,7 +53,7 @@ namespace MVC.Areas.Identity.Pages.Account
                 var callbackUrl = Url.Page(
                     "/Account/ResetPassword",
                     pageHandler: null,
-                    values: new { userId = user.Id, code = code },
+                    values: new { code },
                     protocol: Request.Scheme);
 
                 await _emailSender.SendEmailAsync(

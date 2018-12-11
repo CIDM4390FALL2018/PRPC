@@ -971,7 +971,7 @@
     "dotenv.net/1.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kiZlyBQRNlPV8cQV0F/B8MJBvl52N6l7qVVd3AOHiux89VJLRd1JRuA3ktIw43r5S1y1IjdGyCMiQI/wmpRSRA==",
+      "sha512": "sha512-bUV/2XXe4LxlrIxIdge5h8dwmrKhRTh27S+jXH5ZshsAKoDyzdEs9nqVYdDdlmr+f8dBDY7fKRSBhC+RQSjgRA==",
       "path": "dotenv.net/1.0.4",
       "hashPath": "dotenv.net.1.0.4.nupkg.sha512"
     },

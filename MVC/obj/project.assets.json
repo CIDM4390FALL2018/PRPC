@@ -13545,8 +13545,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj": {
-              "projectPath": "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj"
+            "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj": {
+              "projectPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj"
             },
             "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj": {
               "projectPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj"

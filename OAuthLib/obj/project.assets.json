@@ -184,22 +184,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "projectUniqueName": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\OAuthLib\\OAuthLib.csproj",
       "projectName": "OAuthLib",
-      "projectPath": "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "projectPath": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\OAuthLib\\OAuthLib.csproj",
       "packagesPath": "C:\\Users\\ccowart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\OAuthLib\\obj\\",
+      "outputPath": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\OAuthLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ccowart\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ccowart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -17,49 +17,37 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg bg-primary">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-translate">
-                <a class="navbar-brand" href="/Home">1Ride</a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">HOME</a>
-                <a asp-area="" asp-controller="Home" asp-action="Contact" class="navbar-brand">MAP</a>
-  
-               
-                 
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">MVC</a>
             </div>
-               
-     
-                        
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                </ul>
                 <partial name="_LoginPartial" />
-                
-                
             </div>
         </div>
     </nav>
 
     <partial name="_CookieConsentPartial" />
 
-      <div id="app" style="padding-top:20px">
-        <div class="main">
-            <div class="container">
-                
-
-
+    <div class="container body-content">
         @RenderBody()
         <hr />
-        
-    </div>
-    <footer>
-            <p>&copy; CIDM4390FALL2018 Final</p>
+        <footer>
+            <p>&copy; 2018 - MVC</p>
         </footer>
+    </div>
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
@@ -84,5 +72,4 @@
 
     @RenderSection("Scripts", required: false)
 </body>
-
 </html>

@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using MVC.Areas.Identity.Data;
 using SendGridLib;
+using smsverifylibrary;
 
 namespace MVC.Areas.Identity.Pages.Account
 {
@@ -131,6 +132,12 @@ namespace MVC.Areas.Identity.Pages.Account
                     await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
+                    //SEND TEXT UPON REGISTRATION
+                    VerifySmS sms = new VerifySmS();
+                    ViewData["name"] = user.FName;
+                    string smsPhoneNumber = "+1" + user.PhoneNumber;
+                    ViewData["phoneNumber"] = smsPhoneNumber;
+                    ViewData["messageResult"] = sms.VerifyText(smsPhoneNumber);
                     //await _signInManager.SignInAsync(user, isPersistent: false);
                     return LocalRedirect(returnUrl);
                 }

@@ -877,12 +877,10 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection/2.0.0": {
-      "sha512": "V6xeuEEpIIygDHtOtJ+0X0qkKtVSUS1+kwOC3O4pH0depJf8AfofGo8hanOxoRgooj7WmTtPcgOIjwAteEe28A==",
+      "sha512": "wakg18gHYiUL1pcjjyZuYk6OvDpbSw1E7IWxm78TMepsr+gQ8W0tWzuRm0q/9RFblngwPwo15rrgZSUV51W5Iw==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection/2.0.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512",
@@ -890,12 +888,10 @@
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
-      "sha512": "P4dK3DZQFsp7fFzkBu9H9jesBj0KB3O9c50n9FeAOIF+A8aQKBRj63luC9gPqvcedNdMfYQoEUe5dLps1sqvuA==",
+      "sha512": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
       "type": "package",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
@@ -916,12 +912,10 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2976,12 +2970,10 @@
       ]
     },
     "System.Text.Encodings.Web/4.3.1": {
-      "sha512": "mbi9iwBNzw/W5qr0ZWg6+0SK77gIM37ACEUgdIrQ9W2tdQyAETZZI5s95EGBTBHwGWMBA2EH+ZCe/oztfFDQfQ==",
+      "sha512": "tcfPv+q/nK+5EsAxCLauIOd0kL+lZsXQ4lPKRnh8ex6O1Rm8WAN3LtF2GDFHyD0glSmUpIrgTnLhHCkMAKo3Ug==",
       "type": "package",
       "path": "system.text.encodings.web/4.3.1",
       "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Text.Encodings.Web.dll",
@@ -3366,28 +3358,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ccowart\\.nuget\\packages\\": {},
+    "C:\\Users\\lf962076\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj",
+      "projectUniqueName": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SendGridLib\\SendGridLib.csproj",
       "projectName": "SendGridLib",
-      "projectPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\SendGridLib.csproj",
-      "packagesPath": "C:\\Users\\ccowart\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\ccowart\\OneDrive - wtamu.edu\\Documents\\GitHub\\PRPC\\SendGridLib\\obj\\",
+      "projectPath": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SendGridLib\\SendGridLib.csproj",
+      "packagesPath": "C:\\Users\\lf962076\\.nuget\\packages\\",
+      "outputPath": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SendGridLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ccowart\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\lf962076\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

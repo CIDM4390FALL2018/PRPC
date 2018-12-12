@@ -50,8 +50,6 @@ namespace smsverifylibrary
 
         public string VerifyText(string CustomerPhoneNumber)
         {
-            
-            DotEnv.Config();
             string accountSID = System.Environment.GetEnvironmentVariable("TWILIO_SID");
             string authToken = System.Environment.GetEnvironmentVariable("TWILIO_AUTHTOKEN");
             string TwilioNumber = System.Environment.GetEnvironmentVariable("TWILIO_PHONE");

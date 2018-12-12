@@ -1313,7 +1313,6 @@
       "type": "package",
       "path": "dotenv.net/1.0.4",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "dotenv.net.1.0.4.nupkg.sha512",
         "dotenv.net.nuspec",
@@ -4729,11 +4728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
+      "projectUniqueName": "U:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
       "projectName": "SMSVerifyLib",
-      "projectPath": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
+      "projectPath": "U:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SMSVerifyLib\\SMSVerifyLib.csproj",
       "packagesPath": "C:\\Users\\lf962076\\.nuget\\packages\\",
-      "outputPath": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SMSVerifyLib\\obj\\",
+      "outputPath": "U:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SMSVerifyLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4785,5 +4784,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file U:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SMSVerifyLib\\obj\\SMSVerifyLib.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

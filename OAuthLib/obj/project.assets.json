@@ -182,17 +182,29 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\OAuthLib\\OAuthLib.csproj",
       "projectName": "OAuthLib",
       "projectPath": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\OAuthLib\\OAuthLib.csproj",
       "packagesPath": "C:\\Users\\lf962076\\.nuget\\packages\\",
       "outputPath": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\OAuthLib\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "projectName": "OAuthLib",
+      "projectPath": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\OAuthLib\\OAuthLib.csproj",
+      "packagesPath": "C:\\Users\\ccowart\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ccowart\\Documents\\GitHub\\PRPC\\OAuthLib\\obj\\",
+>>>>>>> 2022937372c36a013700f4435dc3b3eacbfb72e9
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\lf962076\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\ccowart\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 2022937372c36a013700f4435dc3b3eacbfb72e9
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

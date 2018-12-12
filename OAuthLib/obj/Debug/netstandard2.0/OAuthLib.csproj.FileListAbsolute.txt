@@ -24,3 +24,12 @@ C:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\OAuthLib\obj\Debug\n
 C:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.AssemblyInfo.cs
 C:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.dll
 C:\Users\ccowart\OneDrive - wtamu.edu\Documents\GitHub\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.pdb
+C:\Users\ccowart\Documents\GitHub\PRPC\OAuthLib\bin\Debug\netstandard2.0\OAuthLib.deps.json
+C:\Users\ccowart\Documents\GitHub\PRPC\OAuthLib\bin\Debug\netstandard2.0\OAuthLib.dll
+C:\Users\ccowart\Documents\GitHub\PRPC\OAuthLib\bin\Debug\netstandard2.0\OAuthLib.pdb
+C:\Users\ccowart\Documents\GitHub\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.csprojAssemblyReference.cache
+C:\Users\ccowart\Documents\GitHub\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.csproj.CoreCompileInputs.cache
+C:\Users\ccowart\Documents\GitHub\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.AssemblyInfoInputs.cache
+C:\Users\ccowart\Documents\GitHub\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.AssemblyInfo.cs
+C:\Users\ccowart\Documents\GitHub\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.dll
+C:\Users\ccowart\Documents\GitHub\PRPC\OAuthLib\obj\Debug\netstandard2.0\OAuthLib.pdb

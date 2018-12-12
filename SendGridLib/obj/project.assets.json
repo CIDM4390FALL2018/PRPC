@@ -782,7 +782,6 @@
       "type": "package",
       "path": "dotenv.net/1.0.4",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "dotenv.net.1.0.4.nupkg.sha512",
         "dotenv.net.nuspec",
@@ -794,7 +793,6 @@
       "type": "package",
       "path": "microsoft.aspnetcore.http.abstractions/1.1.2",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net451/Microsoft.AspNetCore.Http.Abstractions.dll",
         "lib/net451/Microsoft.AspNetCore.Http.Abstractions.xml",
@@ -809,7 +807,6 @@
       "type": "package",
       "path": "microsoft.aspnetcore.http.features/1.1.2",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net451/Microsoft.AspNetCore.Http.Features.dll",
         "lib/net451/Microsoft.AspNetCore.Http.Features.xml",
@@ -903,7 +900,6 @@
       "type": "package",
       "path": "microsoft.extensions.primitives/1.1.1",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard1.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard1.0/Microsoft.Extensions.Primitives.xml",
@@ -1129,7 +1125,6 @@
       "type": "package",
       "path": "sendgrid/9.10.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "lib/net452/SendGrid.dll",
         "lib/net452/SendGrid.pdb",
@@ -1871,7 +1866,6 @@
       "type": "package",
       "path": "system.net.websockets/4.3.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -2456,7 +2450,6 @@
       "type": "package",
       "path": "system.runtime.compilerservices.unsafe/4.3.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -3364,11 +3357,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SendGridLib\\SendGridLib.csproj",
+      "projectUniqueName": "U:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SendGridLib\\SendGridLib.csproj",
       "projectName": "SendGridLib",
-      "projectPath": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SendGridLib\\SendGridLib.csproj",
+      "projectPath": "U:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SendGridLib\\SendGridLib.csproj",
       "packagesPath": "C:\\Users\\lf962076\\.nuget\\packages\\",
-      "outputPath": "u:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SendGridLib\\obj\\",
+      "outputPath": "U:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SendGridLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3420,5 +3413,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file U:\\CIDM4390\\PRPC\\PRPCCode\\PRPC\\SendGridLib\\obj\\SendGridLib.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

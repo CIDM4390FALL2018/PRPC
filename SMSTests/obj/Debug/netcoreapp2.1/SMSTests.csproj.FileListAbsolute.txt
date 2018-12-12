@@ -15,3 +15,7 @@ C:\PRPC-master\SMSTests\obj\Debug\netcoreapp2.1\SMSTests.AssemblyInfo.cs
 C:\PRPC-master\SMSTests\obj\Debug\netcoreapp2.1\SMSTests.csproj.CopyComplete
 C:\PRPC-master\SMSTests\obj\Debug\netcoreapp2.1\SMSTests.dll
 C:\PRPC-master\SMSTests\obj\Debug\netcoreapp2.1\SMSTests.pdb
+C:\new folder\PRPC-master\SMSTests\obj\Debug\netcoreapp2.1\SMSTests.csprojAssemblyReference.cache
+C:\new folder\PRPC-master\SMSTests\obj\Debug\netcoreapp2.1\SMSTests.csproj.CoreCompileInputs.cache
+C:\new folder\PRPC-master\SMSTests\obj\Debug\netcoreapp2.1\SMSTests.AssemblyInfoInputs.cache
+C:\new folder\PRPC-master\SMSTests\obj\Debug\netcoreapp2.1\SMSTests.AssemblyInfo.cs

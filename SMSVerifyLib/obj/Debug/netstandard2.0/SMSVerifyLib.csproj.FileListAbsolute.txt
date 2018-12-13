@@ -33,12 +33,3 @@ C:\Users\ccowart\Documents\GitHub\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMS
 C:\Users\ccowart\Documents\GitHub\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfo.cs
 C:\Users\ccowart\Documents\GitHub\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.dll
 C:\Users\ccowart\Documents\GitHub\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.pdb
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.deps.json
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.dll
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SMSVerifyLib\bin\Debug\netstandard2.0\SMSVerifyLib.pdb
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.csprojAssemblyReference.cache
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.csproj.CoreCompileInputs.cache
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfoInputs.cache
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.AssemblyInfo.cs
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.dll
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SMSVerifyLib\obj\Debug\netstandard2.0\SMSVerifyLib.pdb

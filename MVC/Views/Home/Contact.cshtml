@@ -1,47 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Contact";
 }
-<!DOCTYPE_html>
-<html>
-    <head>
-        <title>
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
 
-        </title>
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
 
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-            }
-            #map{
-                height: 750px;
-                width: 750px;
-            }
-        </style>
-    </head>
-
-    <body>
-
-        <div id="map"></div>
-
-        <script>
-            function initMap(){
-                var location = {lat: 34.982619, lng: -101.914579};
-                var map = new google.maps.Map(document.getElementById("map"), {
-                    zoom: 15,
-                    center: location
-                });
-
-                var marker = new google.maps.Marker({
-                    position: location, 
-                    map: map
-                });
-            }
-            AIzaSyADVo7PAxPTPwnuvOyzFJM4ouek8eFzkEg
-        </script>
-
-     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADVo7PAxPTPwnuvOyzFJM4ouek8eFzkEg&callback=initMap"
-  type="text/javascript"></script>
-
-    </body>
-</html>
+<address>
+    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>

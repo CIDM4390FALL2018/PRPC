@@ -51,12 +51,3 @@ C:\Users\ccowart\Documents\GitHub\PRPC\SendGridLib\obj\Debug\netstandard2.0\Send
 C:\Users\ccowart\Documents\GitHub\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
 C:\Users\ccowart\Documents\GitHub\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
 C:\Users\ccowart\Documents\GitHub\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.deps.json
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.dll
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SendGridLib\bin\Debug\netstandard2.0\SendGridLib.pdb
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csprojAssemblyReference.cache
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.csproj.CoreCompileInputs.cache
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfoInputs.cache
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.AssemblyInfo.cs
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.dll
-U:\CIDM4390\PRPC\PRPCCode\PRPC\SendGridLib\obj\Debug\netstandard2.0\SendGridLib.pdb

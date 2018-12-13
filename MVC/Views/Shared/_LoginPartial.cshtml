@@ -11,28 +11,15 @@
                 <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
             </li>
             <li>
-                <button type="submit" class="btn btn-link navbar-btn navbar-link">LOG OUT</button>
+                <button type="submit" class="btn btn-link navbar-btn navbar-link">Logout</button>
             </li>
         </ul>
     </form>
 }
 else
 {
-
-    
-     
-    <ul class="navbar-brand ">
-        
-             <a class="nav-link dropdown-toggle" href="#" id="navdrop" role="button" data-toggle="dropdown">
-          SELECT OPERATOR
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navdrop">
-          <a class="dropdown-item" href="#">City of Amarillo</a>
-          <a class="dropdown-item" href="#">WTAMU</a>
-        </div>
-        
-        <a asp-area="Identity" asp-page="/Account/Register" class="navbar-brand">REGISTER</a>
-        <a asp-area="Identity" asp-page="/Account/Login" class="navbar-brand">LOG IN</a>
-       
-   </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a asp-area="Identity" asp-page="/Account/Register">Register</a></li>
+        <li><a asp-area="Identity" asp-page="/Account/Login">Login</a></li>
+    </ul>
 }
